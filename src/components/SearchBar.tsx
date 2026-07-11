@@ -12,10 +12,10 @@ export function SearchBar({ onSelect }: { onSelect: (app: PlayApp) => void }) {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search an app, e.g. Instagram"
-        className="w-full rounded-full border border-neutral-300 bg-white px-5 py-3 text-sm outline-none focus:border-terracotta"
+        className="w-full rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm text-chalk outline-none placeholder:text-chalk/40 focus:border-volt"
       />
       {results.length > 0 && (
-        <ul className="absolute z-10 mt-2 w-full rounded-2xl border border-neutral-200 bg-white shadow-lg overflow-hidden">
+        <ul className="panel-emboss absolute z-10 mt-2 w-full overflow-hidden rounded-2xl border border-white/10">
           {results.map((app) => (
             <li key={app.id}>
               <button
@@ -23,12 +23,12 @@ export function SearchBar({ onSelect }: { onSelect: (app: PlayApp) => void }) {
                   onSelect(app);
                   setQuery("");
                 }}
-                className="flex w-full items-center gap-3 px-4 py-3 text-left hover:bg-paper"
+                className="flex w-full items-center gap-3 px-4 py-3 text-left hover:bg-white/5"
               >
                 <img src={app.icon} alt="" className="h-8 w-8 rounded-lg" />
                 <div>
-                  <div className="text-sm font-medium">{app.name}</div>
-                  <div className="text-xs text-neutral-500">{app.category}</div>
+                  <div className="text-sm font-medium text-chalk">{app.name}</div>
+                  <div className="text-xs text-chalk/40">{app.category}</div>
                 </div>
               </button>
             </li>

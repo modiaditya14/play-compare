@@ -11,16 +11,12 @@ export function AlternativesChips({
   const alts = getAlternatives(app);
 
   if (alts.length === 0) {
-    return (
-      <p className="text-sm text-neutral-500">
-        No alternatives found in the same category yet.
-      </p>
-    );
+    return <p className="text-sm text-chalk/40">No alternatives found in the same category yet.</p>;
   }
 
   return (
     <div>
-      <p className="mb-2 text-xs uppercase tracking-wide text-neutral-500">
+      <p className="mb-2 text-xs uppercase tracking-wide text-chalk/40">
         Alternatives to {app.name}
       </p>
       <div className="flex flex-wrap gap-2">
@@ -29,7 +25,7 @@ export function AlternativesChips({
             key={alt.id}
             onClick={() => onPick(alt)}
             title={reason}
-            className="flex items-center gap-2 rounded-full border border-neutral-300 bg-white px-3 py-1.5 text-sm hover:border-terracotta hover:text-terracotta"
+            className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-sm text-chalk/80 transition hover:border-volt hover:text-volt"
           >
             <img src={alt.icon} alt="" className="h-5 w-5 rounded" />
             {alt.name}

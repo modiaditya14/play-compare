@@ -1,13 +1,56 @@
 @import "tailwindcss";
 
 @theme {
-  --font-serif: "Fraunces", serif;
-  --font-sans: "IBM Plex Sans", sans-serif;
-  --color-paper: #f7f4ef;
-  --color-terracotta: #c45c3e;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --color-ink: #121218;
+  --color-ink-soft: #1c1c26;
+  --color-chalk: #f4f2ec;
+  --color-volt: #ccff33;
+  --color-grape: #7c5cff;
+  --color-coral: #ff5a5f;
 }
 
 body {
-  background-color: var(--color-paper);
+  background-color: var(--color-ink);
   font-family: var(--font-sans);
+}
+
+/* Kinetic letter reveal */
+@keyframes letter-in {
+  0% { opacity: 0; transform: translateY(0.5em) rotate(3deg); }
+  100% { opacity: 1; transform: translateY(0) rotate(0deg); }
+}
+.kinetic span {
+  display: inline-block;
+  animation: letter-in 0.5s cubic-bezier(.2,.8,.2,1) both;
+}
+
+/* Skeuomorphic glossy badge */
+.badge-gloss {
+  position: relative;
+  background: linear-gradient(180deg, #e2ff70 0%, var(--color-volt) 45%, #a8d600 100%);
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.8),
+    inset 0 -3px 6px rgba(0,0,0,0.25),
+    0 8px 20px rgba(204,255,51,0.25),
+    0 2px 0 rgba(0,0,0,0.4);
+}
+.badge-gloss::after {
+  content: "";
+  position: absolute;
+  inset: 2px 2px auto 2px;
+  height: 40%;
+  border-radius: inherit;
+  background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0));
+  pointer-events: none;
+}
+
+/* Skeuomorphic embossed panel */
+.panel-emboss {
+  background: linear-gradient(160deg, var(--color-ink-soft), var(--color-ink) 70%);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.06),
+    inset 0 -1px 0 rgba(0,0,0,0.6),
+    0 20px 40px rgba(0,0,0,0.5);
 }
