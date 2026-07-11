@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", serif;
+  --font-sans: "IBM Plex Sans", sans-serif;
+  --color-paper: #f7f4ef;
+  --color-terracotta: #c45c3e;
+}
+
+body {
+  background-color: var(--color-paper);
+  font-family: var(--font-sans);
+}
