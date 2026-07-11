@@ -7,22 +7,50 @@ import gplay from "google-play-scraper";
 import { writeFile } from "node:fs/promises";
 
 // Curated seed list: package IDs across categories.
-// Extend this list any time — categories are auto-detected from live data.
+// Categories are auto-detected from live data.
 const SEED_APP_IDS = [
+  // =========================
   // Social
+  // =========================
   "com.instagram.android",
   "com.facebook.katana",
   "com.snapchat.android",
-  "com.twitter.android",
-  "com.zhiliaoapp.musically", // TikTok
+  "com.twitter.android",              // X
+  "com.zhiliaoapp.musically",         // TikTok
   "com.pinterest",
   "com.linkedin.android",
   "com.reddit.frontpage",
   "com.discord",
+  "com.threadsapp",
+  "com.tumblr",
+  "com.bereal.ft",
 
-  // Productivity
+  // =========================
+  // Communication / Messaging
+  // =========================
+  "com.whatsapp",
+  "org.telegram.messenger",
+  "com.facebook.orca",                // Messenger
+  "com.google.android.apps.messaging",
+  "com.viber.voip",
+  "jp.naver.line.android",
+  "com.skype.raider",
+  "com.microsoft.teams",
+  "us.zoom.videomeetings",
+  "com.google.android.apps.meetings", // Google Meet
+  "com.google.android.gm",            // Gmail
+  "com.yahoo.mobile.client.android.mail",
   "com.microsoft.office.outlook",
+  "com.samsung.android.email.provider",
+
+  // =========================
+  // Productivity
+  // =========================
   "com.google.android.apps.docs",
+  "com.google.android.apps.docs.editors.sheets",
+  "com.google.android.apps.docs.editors.slides",
+  "com.google.android.keep",
+  "com.google.android.calendar",
   "com.todoist",
   "com.notion.id",
   "com.evernote",
@@ -30,54 +58,193 @@ const SEED_APP_IDS = [
   "com.asana.app",
   "com.trello",
   "com.slack",
-  "com.google.android.calendar",
+  "com.clickup.app",
+  "com.anydo",
+  "com.ticktick.task",
+  "com.microsoft.office.word",
+  "com.microsoft.office.excel",
+  "com.microsoft.office.powerpoint",
+  "com.microsoft.office.officehubrow",
+  "com.dropbox.android",
+  "com.box.android",
+  "com.google.android.apps.drive",
 
+  // =========================
   // Finance
+  // =========================
   "com.mint",
   "com.paypal.android.p2pmobile",
   "com.venmo",
   "com.squareup.cash",
   "com.coinbase.android",
+  "com.binance.dev",
+  "com.revolut.revolut",
+  "com.robinhood.android",
+  "com.sofi.mobile",
+  "com.chime",
 
-  // Fitness
+  // =========================
+  // Health & Fitness
+  // =========================
   "com.myfitnesspal.android",
   "com.strava",
   "com.nike.ntc",
   "fit.plusminus.fastic",
   "com.fitbit.FitbitMobile",
+  "com.google.android.apps.fitness",
+  "com.adidas.app",
+  "com.calm.android",
+  "com.getsomeheadspace.android",
+  "com.samsung.android.app.shealth",
 
-  // Streaming / Entertainment
+  // =========================
+  // Entertainment / Streaming
+  // =========================
   "com.netflix.mediaclient",
   "com.spotify.music",
   "com.google.android.youtube",
+  "com.google.android.apps.youtube.music",
   "com.disney.disneyplus",
   "com.amazon.avod.thirdpartyclient",
   "com.hulu.plus",
+  "tv.twitch.android.app",
+  "com.mxtech.videoplayer.ad",
+  "com.amazon.mShop.android.shopping",
 
-  // Messaging
-  "com.whatsapp",
-  "org.telegram.messenger",
-  "com.viber.voip",
-  "com.google.android.apps.messaging",
+  // =========================
+  // Music & Audio
+  // =========================
+  "deezer.android.app",
+  "com.soundcloud.android",
+  "com.apple.android.music",
+  "com.pandora.android",
 
-  // Photo/Video editing
+  // =========================
+  // Photography / Video Editing
+  // =========================
   "com.adobe.lrmobile",
   "com.canva.editor",
   "com.picsart.studio",
   "com.vsco.cam",
+  "com.adobe.psmobile",
+  "com.lemon.lvoverseas",          // CapCut
+  "com.camerasideas.instashot",    // InShot
+  "com.google.android.apps.photos",
+  "com.b612.android.camera",
 
+  // =========================
   // Shopping
+  // =========================
   "com.amazon.mShop.android.shopping",
   "com.ebay.mobile",
   "com.walmart.android",
+  "com.contextlogic.wish",
+  "com.etsy.android",
+  "com.target.ui",
+  "com.alibaba.aliexpresshd",
+  "com.flipkart.android",
+  "in.amazon.mShop.android.shopping",
 
-  // Navigation
+  // =========================
+  // Food & Delivery
+  // =========================
+  "com.ubercab.eats",
+  "com.dd.doordash",
+  "com.grubhub.android",
+  "com.postmates.android",
+  "com.zomato",
+  "com.Swiggy",
+  "com.dominos",
+
+  // =========================
+  // Travel
+  // =========================
+  "com.ubercab",
+  "me.lyft.android",
+  "com.airbnb.android",
+  "com.booking",
+  "com.expedia.bookings",
+  "com.tripadvisor.tripadvisor",
+  "com.skyscanner.skybook",
+
+  // =========================
+  // Maps & Navigation
+  // =========================
   "com.google.android.apps.maps",
   "com.waze",
+  "com.sygic.aura",
+  "com.here.app.maps",
 
-  // Note-taking / docs alt
-  "com.microsoft.office.word",
-  "com.google.android.keep",
+  // =========================
+  // Browsers
+  // =========================
+  "com.android.chrome",
+  "org.mozilla.firefox",
+  "com.microsoft.emmx",
+  "com.opera.browser",
+  "com.brave.browser",
+
+  // =========================
+  // Education
+  // =========================
+  "com.duolingo",
+  "org.khanacademy.android",
+  "com.udemy.android",
+  "com.coursera.android",
+  "com.google.android.apps.classroom",
+
+  // =========================
+  // News
+  // =========================
+  "flipboard.app",
+  "com.google.android.apps.magazines",
+  "bbc.mobile.news.ww",
+  "com.cnn.mobile.android.phone",
+
+  // =========================
+  // Books
+  // =========================
+  "com.amazon.kindle",
+  "com.google.android.apps.books",
+  "com.audible.application",
+
+  // =========================
+  // Weather
+  // =========================
+  "com.weather.Weather",
+  "com.accuweather.android",
+  "com.weather.Weather",
+
+  // =========================
+  // Utilities
+  // =========================
+  "com.google.android.apps.files",
+  "com.microsoft.skydrive",
+  "com.teamviewer.teamviewer.market.mobile",
+  "com.cpuid.cpu_z",
+
+  // =========================
+  // Security
+  // =========================
+  "com.avast.android.mobilesecurity",
+  "com.bitdefender.antivirus",
+  "com.lookout",
+
+  // =========================
+  // AI
+  // =========================
+  "com.openai.chatgpt",
+  "com.google.android.apps.bard",
+  "ai.perplexity.app.android",
+  "com.microsoft.copilot",
+
+  // =========================
+  // Developer
+  // =========================
+  "com.termux",
+  "io.github.muntashirakon.AppManager",
+  "com.foxdebug.acodefree",
+  "ru.iiec.pydroid3"
 ];
 
 async function fetchApp(id) {

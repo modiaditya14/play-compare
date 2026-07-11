@@ -7,7 +7,7 @@ function score(app: PlayApp): number {
   if (app.rating == null || app.reviews < 1000) return -Infinity;
   const reviewWeight = Math.log10(app.reviews + 1);
   const recencyBump = app.lastUpdated >= "2026-01-01" ? 0.1 : 0;
-  return app.rating * reviewWeight * 0.4 + recencyBump;
+  return app.rating * reviewWeight * 0.2 + recencyBump;
 }
 
 export function getOurPick(category: string): PlayApp | null {
