@@ -10,7 +10,7 @@ function AppHeader({ app, align }: { app: PlayApp; align: "left" | "right" }) {
         className="h-14 w-14 rounded-2xl shadow-[0_6px_14px_rgba(0,0,0,0.5),inset_0_1px_1px_rgba(255,255,255,0.15)]"
       />
       <div>
-        <h2 className="font-display text-xl font-semibold text-chalk">{app.name}</h2>
+        <h2 className="font-display kinetic text-xl font-semibold text-chalk">{app.name}</h2>
         <span className="inline-block rounded-full bg-white/5 px-2 py-0.5 text-xs uppercase tracking-wide text-chalk/50">
           {app.category}
         </span>
@@ -28,7 +28,7 @@ export function CompareSplit({ appA, appB }: { appA: PlayApp; appB: PlayApp }) {
         <AppHeader app={appA} align="left" />
         <span className="badge-gloss kinetic rounded-full px-4 py-1.5 font-display text-xs font-bold text-ink">
           {"VS".split("").map((c, i) => (
-            <span key={i} style={{ animationDelay: `${i * 0.04}s` }}>{c}</span>
+            <span key={i} style={{ animationDelay: `${i * 0.4}s` }}>{c}</span>
           ))}
         </span>
         <AppHeader app={appB} align="right" />

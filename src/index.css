@@ -15,32 +15,75 @@ body {
   background-color: var(--color-ink);
   font-family: var(--font-sans);
 }
+.tilted-dot-grid {
+  position: relative;
+  width: 100%;
+  height: max-content;
+  /* Control your main fallback background color here */
+  background-color: #0f172a; 
+  overflow-x: hidden;
+}
 
+.tilted-dot-grid::before {
+  content: "";
+  position: absolute;
+  /* Expand the boundaries so edges don't show when rotated */
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200vh;
+  
+  /* Create the dots pattern */
+  background-image: radial-gradient(#334155 1.5px, transparent 1.5px);
+  /* Control the spacing between dots */
+  background-size: 24px 24px; 
+  /* Rotate the grid to your desired tilt angle */
+  transform: rotate(15deg);
+  pointer-events: none;
+}
+@keyframes slowMove {
+  from {
+    background-position: 0 0;
+  }
+  50%{
+    background-position: -24px 24px;
+  }
+  to {
+    background-position: 24px 24px; /* Moves diagonally */
+  }
+}
 /* Kinetic letter reveal */
 @keyframes letter-in {
-  0% { opacity: 0; transform: translateY(0.5em) rotate(3deg); }
+  0% { opacity: 0; transform: translateY(-0.5em) rotate(-23deg) scale(1.2); }
   100% { opacity: 1; transform: translateY(0) rotate(0deg); }
 }
 .kinetic span {
   display: inline-block;
-  animation: letter-in 0.5s cubic-bezier(.2,.8,.2,1) both;
+  animation: letter-in 1s cubic-bezier(.2,.8,.2,1) both;
+}
+@keyframes letter-swoop {
+  0% { opacity: 0.5; transform: translateY(-0.5em) rotate(-3deg) scale(1); }
+  100% { opacity: 1; transform: translateY(0) rotate(0deg); }
+}
+.kinetic h2{
+  animation: letter-swoop 1s cubic-bezier(.2,.8,.2,1) both;
 }
 
 /* Skeuomorphic glossy badge */
 .badge-gloss {
   position: relative;
-  background: linear-gradient(180deg, #e2ff70 0%, var(--color-volt) 45%, #a8d600 100%);
+  background: linear-gradient(80deg, #707eff 10%, #a8d600 90%);
   box-shadow:
     inset 0 1px 1px rgba(255,255,255,0.8),
     inset 0 -3px 6px rgba(0,0,0,0.25),
     0 8px 20px rgba(204,255,51,0.25),
     0 2px 0 rgba(0,0,0,0.4);
 }
-.badge-gloss::after {
+.badge-gloss::before {
   content: "";
   position: absolute;
   inset: 2px 2px auto 2px;
-  height: 40%;
+  height: 100%;
   border-radius: inherit;
   background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0));
   pointer-events: none;

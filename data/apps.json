@@ -1501,25 +1501,6 @@
     "lastUpdated": "2026-07-08"
   },
   {
-    "id": "com.amazon.mShop.android.shopping",
-    "name": "Amazon Shopping",
-    "slug": "amazon-shopping",
-    "icon": "https://play-lh.googleusercontent.com/UIYZ9hTFNg-zZUg_uzLS9YdyDpvoo1VHNFb6VlzHy5JqNMq9Uq-p2S1VPwzXCipHTFacfGKhJkyAuKL19VVlcWA",
-    "category": "Shopping",
-    "genres": [
-      "SHOPPING"
-    ],
-    "rating": 4.4182205,
-    "reviews": 4613438,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Amazon Mobile LLC",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-06-16"
-  },
-  {
     "id": "com.ebay.mobile",
     "name": "eBay online shopping & selling",
     "slug": "ebay-online-shopping-selling",

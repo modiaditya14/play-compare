@@ -3,13 +3,13 @@ import type { PlayApp } from "../types/app";
 export function OurPick({ app }: { app: PlayApp }) {
   return (
     <div className="panel-emboss relative overflow-hidden rounded-3xl border border-white/5 p-6">
-      <div className="badge-gloss absolute -right-6 -top-6 flex h-24 w-24 rotate-12 items-center justify-center rounded-full text-[10px] font-bold uppercase tracking-wide text-ink">
-        <span className="rotate-[-12deg] text-center leading-tight">
+      <div className="badge-gloss absolute -right-[-6] -top-6 flex h-12 w-24 rotate-[-30] items-center justify-center rounded-full text-[15px] font-bold uppercase tracking-wide text-ink">
+        <span className="kinetic rotate-[-10deg] text-l">
           Our<br />Pick
         </span>
       </div>
 
-      <p className="kinetic mb-4 font-display text-xs font-semibold uppercase tracking-[0.3em] text-volt">
+      <p className=" mb-4 font-display text-s font-semibold uppercase tracking-[0.3em] text-volt">
         {"editor's pick".split("").map((c, i) => (
           <span key={i} style={{ animationDelay: `${i * 0.02}s` }}>
             {c === " " ? "\u00A0" : c}
