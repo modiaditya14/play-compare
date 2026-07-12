@@ -2,6 +2,23 @@ import type { PlayApp } from "../types/app";
 import { buildComparison } from "../lib/compare";
 import { FeaturesComparison } from "./FeaturesComparison";
 
+function playStoreUrl(app: PlayApp): string {
+  return `https://play.google.com/store/apps/details?id=${app.id}`;
+}
+
+function InstallButton({ app }: { app: PlayApp }) {
+  return (
+    <a
+      href={playStoreUrl(app)}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn-install"
+    >
+      Install
+    </a>
+  );
+}
+
 function AppHeader({ app, align }: { app: PlayApp; align: "left" | "right" }) {
   const category = app.category as string;
   return (
@@ -11,12 +28,15 @@ function AppHeader({ app, align }: { app: PlayApp; align: "left" | "right" }) {
         alt=""
         className="h-10 sm:h-14 w-10 sm:w-14 rounded-2xl shadow-[0_6px_14px_rgba(0,0,0,0.5),inset_0_1px_1px_rgba(255,255,255,0.15)]"
       />
+      {/* <InstallButton app={app} /> */}
       <div className="min-w-0">
         <h2 className="font-display kinetic text-sm sm:text-xl font-semibold text-chalk truncate">{app.name}</h2>
         <span className="inline-block rounded-full bg-white/5 px-2 py-0.5 text-[0.65rem] sm:text-xs uppercase tracking-wide text-chalk/50">
           {category}
+
         </span>
       </div>
+
     </div>
   );
 }

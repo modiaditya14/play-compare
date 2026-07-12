@@ -249,7 +249,7 @@ export function FeaturesComparison({
                                     {valueA ? "Yes" : "No"}
                                 </span>
                             </div>
-                            <div className="text-[0.7rem] sm:text-[0.85rem] uppercase tracking-wide text-chalk/30 text-center font-semibold">
+                            <div className="text-[0.7rem] sm:text-[0.85rem] uppercase tracking-wide text-chalk/60 text-center font-semibold">
                                 {featureLabel}
                             </div>
                             <div className="flex items-center justify-end gap-2">
