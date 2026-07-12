@@ -2,22 +2,22 @@ import type { PlayApp } from "../types/app";
 import { buildComparison } from "../lib/compare";
 import { FeaturesComparison } from "./FeaturesComparison";
 
-function playStoreUrl(app: PlayApp): string {
-  return `https://play.google.com/store/apps/details?id=${app.id}`;
-}
+// function playStoreUrl(app: PlayApp): string {
+//   return `https://play.google.com/store/apps/details?id=${app.id}`;
+// }
 
-function InstallButton({ app }: { app: PlayApp }) {
-  return (
-    <a
-      href={playStoreUrl(app)}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="btn-install"
-    >
-      Install
-    </a>
-  );
-}
+// function InstallButton({ app }: { app: PlayApp }) {
+//   return (
+//     <a
+//       href={playStoreUrl(app)}
+//       target="_blank"
+//       rel="noopener noreferrer"
+//       className="btn-install"
+//     >
+//       Install
+//     </a>
+//   );
+// }
 
 function AppHeader({ app, align }: { app: PlayApp; align: "left" | "right" }) {
   const category = app.category as string;
