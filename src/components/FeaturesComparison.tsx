@@ -15,6 +15,7 @@ function getFeatureLabels(
     const features: { label: string; value: boolean }[] = [];
     const appWithFeatures = app as any;
     if (app.features) {
+        console.log(app.features)
         if (app.category === "Productivity") {
             if ("offlineMode" in app.features) {
                 features.push({ label: "Offline Mode", value: app.features.offlineMode == true || false });
@@ -120,7 +121,7 @@ export function FeaturesComparison({
     if (allFeatures.length === 0) return null;
 
     return (
-        <div className="panel-emboss overflow-hidden rounded-3xl border border-white/5">
+        <div className="panel-emboss bg-black overflow-hidden rounded-3xl border border-white/5">
             <div className="border-b border-white/5 p-6">
                 <h3 className="text-sm font-semibold uppercase tracking-wide text-chalk/50">
                     Features
