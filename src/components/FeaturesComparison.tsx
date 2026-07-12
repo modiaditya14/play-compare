@@ -120,9 +120,9 @@ export function FeaturesComparison({
     if (allFeatures.length === 0) return null;
 
     return (
-        <div className="panel-emboss bg-black overflow-hidden rounded-3xl border border-white/5">
-            <div className="border-b border-white/5 p-6">
-                <h3 className="text-sm font-semibold uppercase tracking-wide text-chalk/50">
+        <div className="panel-emboss overflow-hidden rounded-3xl border border-white/5">
+            <div className="border-b border-white/5 p-3 sm:p-6">
+                <h3 className="text-xs sm:text-sm font-semibold uppercase tracking-wide text-chalk/50">
                     Features
                 </h3>
             </div>
@@ -138,23 +138,23 @@ export function FeaturesComparison({
                     return (
                         <div
                             key={featureLabel}
-                            className="grid grid-cols-[1fr_auto_1fr] items-center gap-4 px-6 py-4"
+                            className="grid grid-cols-3 sm:grid-cols-[1fr_auto_1fr] items-center gap-2 sm:gap-4 px-3 sm:px-6 py-3 sm:py-4"
                         >
                             <div className="flex items-center gap-2">
                                 <FeatureIcon active={valueA} />
                                 <span
-                                    className={`text-sm ${winner === "A" ? "font-semibold text-volt" : "text-chalk/60"
+                                    className={`text-xs sm:text-sm ${winner === "A" ? "font-semibold text-volt" : "text-chalk/60"
                                         }`}
                                 >
                                     {valueA ? "Yes" : "No"}
                                 </span>
                             </div>
-                            <div className="text-xs uppercase tracking-wide text-chalk/30">
+                            <div className="text-[0.7rem] sm:text-[0.85rem] uppercase tracking-wide text-chalk/30 text-center font-semibold">
                                 {featureLabel}
                             </div>
                             <div className="flex items-center justify-end gap-2">
                                 <span
-                                    className={`text-right text-sm ${winner === "B" ? "font-semibold text-volt" : "text-chalk/60"
+                                    className={`text-right text-xs sm:text-sm ${winner === "B" ? "font-semibold text-volt" : "text-chalk/60"
                                         }`}
                                 >
                                     {valueB ? "Yes" : "No"}

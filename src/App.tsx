@@ -49,10 +49,10 @@ export default function App() {
   const ourPick = appA && appB ? getOurPick(appA, appB) : null;
 
   return (
-    <div className="min-h-screen bg-ink px-6 py-12 tilted-dot-grid">
+    <div className="min-h-screen bg-ink px-3 sm:px-6 md:px-8 py-8 sm:py-12 tilted-dot-grid">
       <div className="mx-auto max-w-3xl">
-        <header className="mb-10 text-center cursor-pointer hover:opacity-80 transition-opacity" onClick={() => window.location.href = window.location.pathname}>
-          <h1 className="font-display text-5xl font-bold text-chalk flex items-center justify-center gap-4">
+        <header className="mb-8 sm:mb-10 text-center cursor-pointer hover:opacity-80 transition-opacity" onClick={() => window.location.href = window.location.pathname}>
+          <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-chalk flex items-center justify-center gap-2 sm:gap-4 flex-wrap">
             <Kinetic text="Tarazoo" />
             <svg xmlns="http://w3.org" viewBox="0 0 512 512" className="w-[1em] h-[1em] shrink-0">
               <g className="fill-none stroke-amber-400 stroke-[40px] stroke-linecap-round stroke-linejoin-round">
@@ -78,13 +78,12 @@ export default function App() {
 
 
 
-          <p className="mt-3 text-sm text-chalk/50">
+          <p className="mt-2 sm:mt-3 text-xs sm:text-sm text-chalk/50">
             Compare apps side-by-side. Kiska palda bhari?
-
           </p>
         </header>
 
-        <div className="mb-8 flex justify-center">
+        <div className="mb-6 sm:mb-8 flex justify-center">
           <SearchBar
             onSelect={(app) => {
               setAppA(app);
@@ -94,7 +93,7 @@ export default function App() {
         </div>
 
         {appA && !appB && (
-          <div className="mb-8">
+          <div className="mb-6 sm:mb-8">
             <AlternativesChips app={appA} onPick={setAppB} />
           </div>
         )}
@@ -120,12 +119,12 @@ export default function App() {
         )}
 
         {!appA && (
-          <p className="text-center text-sm text-chalk/30">
+          <p className="text-center text-sm text-chalk/60">
             Try searching "Instagram", "Notion", or "Spotify" to get started.
           </p>
         )}
 
-        <footer className="mt-16 text-center text-xs text-chalk/20">
+        <footer className="mt-12 sm:mt-16 text-center text-xs text-chalk/20">
           Data fetched live from Google Play via google-play-scraper · Android apps only
         </footer>
       </div>
