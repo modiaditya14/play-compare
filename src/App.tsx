@@ -51,7 +51,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-ink px-6 py-12 tilted-dot-grid">
       <div className="mx-auto max-w-3xl">
-        <header className="mb-10 text-center">
+        <header className="mb-10 text-center cursor-pointer hover:opacity-80 transition-opacity" onClick={() => window.location.href = window.location.pathname}>
           <h1 className="font-display text-5xl font-bold text-chalk flex items-center justify-center gap-4">
             <Kinetic text="Tarazoo" />
             <svg xmlns="http://w3.org" viewBox="0 0 100 100" width="10%" height="10%">

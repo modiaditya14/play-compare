@@ -18,10 +18,10 @@ export function buildComparison(a: PlayApp, b: PlayApp): MetricRow[] {
       a.rating == null || b.rating == null
         ? null
         : a.rating === b.rating
-        ? null
-        : a.rating > b.rating
-        ? "A"
-        : "B",
+          ? null
+          : a.rating > b.rating
+            ? "A"
+            : "B",
   });
 
   rows.push({
@@ -31,10 +31,17 @@ export function buildComparison(a: PlayApp, b: PlayApp): MetricRow[] {
     winner: a.reviews === b.reviews ? null : a.reviews > b.reviews ? "A" : "B",
   });
 
+  const formatInstalls = (n: number) => {
+    if (n >= 1000000000) return (n / 1000000000).toFixed(1) + "B";
+    if (n >= 1000000) return (n / 1000000).toFixed(1) + "M";
+    if (n >= 1000) return (n / 1000).toFixed(1) + "K";
+    return n.toString();
+  };
+
   rows.push({
     label: "Installs",
-    valueA: a.installsText,
-    valueB: b.installsText,
+    valueA: formatInstalls(a.installs),
+    valueB: formatInstalls(b.installs),
     winner: a.installs === b.installs ? null : a.installs > b.installs ? "A" : "B",
   });
 
@@ -68,8 +75,8 @@ export function buildComparison(a: PlayApp, b: PlayApp): MetricRow[] {
         ? a.lastUpdated === b.lastUpdated
           ? null
           : a.lastUpdated > b.lastUpdated
-          ? "A"
-          : "B"
+            ? "A"
+            : "B"
         : null,
   });
 

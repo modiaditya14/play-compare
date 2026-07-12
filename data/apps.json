@@ -1,2529 +1,2119 @@
 [
   {
-    "id": "com.instagram.android",
-    "name": "Instagram",
-    "slug": "instagram",
-    "icon": "https://play-lh.googleusercontent.com/yHi59jmO_lVamcyJ1i3rM1_E8bAiAspShnGjjURq05ipQQSUksO3QVEsXTegRSqul038-4YNA7O644XAcx251Q",
-    "category": "Social",
-    "genres": [
-      "SOCIAL"
-    ],
-    "rating": 4.0005054,
-    "reviews": 168349262,
-    "installs": 5000000000,
-    "installsText": "5,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Instagram",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-06"
-  },
-  {
-    "id": "com.facebook.katana",
-    "name": "Facebook",
-    "slug": "facebook",
-    "icon": "https://play-lh.googleusercontent.com/12KEJDhgk6oyE1VgmfCuFzFrQripZ_endElbvEhU1rZawQgV3RI-v3II8fDslI1sdC_WKBkmtxS3jxuIihk33Q",
-    "category": "Social",
-    "genres": [
-      "SOCIAL"
-    ],
-    "rating": 4.558609,
-    "reviews": 183421516,
-    "installs": 10000000000,
-    "installsText": "10,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Meta Platforms, Inc.",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "id": "com.snapchat.android",
-    "name": "Snapchat",
-    "slug": "snapchat",
-    "icon": "https://play-lh.googleusercontent.com/nOJWJoDAzuRSHmlFfpzHXAj8UbTJwk_JGYf0uAPTKPtiiIX_2Y7r5ATO1ZtxHRqaFTqfIDZ40PnBK4hukeJh",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 4.218246,
-    "reviews": 39582760,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Snap Inc",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-07"
-  },
-  {
-    "id": "com.twitter.android",
-    "name": "X",
-    "slug": "x",
-    "icon": "https://play-lh.googleusercontent.com/IsLsCD4eLC2CYvlkgTI6Z5TROj0BJIBgUF7BZ5eliTzyyTjqG_mbofeG4kw2s7oG_JZMSi5ErLz_qsDi169C8w",
-    "category": "News & Magazines",
-    "genres": [
-      "NEWS_AND_MAGAZINES"
-    ],
-    "rating": 3.683914,
-    "reviews": 23214327,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "X Corp.",
-    "contentRating": "Mature 17+",
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "id": "com.zhiliaoapp.musically",
-    "name": "TikTok - Videos, Shop & LIVE",
-    "slug": "tiktok-videos-shop-live",
-    "icon": "https://play-lh.googleusercontent.com/2o7iuqPe-0msP3DvNhzoOgNo4eZ6GkL_RtGVeKyBn5UBQAW5cw-GW5V3wDOHB1yTQuqWzrFLFOv2u4_5ea1uhg",
-    "category": "Social",
-    "genres": [
-      "SOCIAL"
-    ],
-    "rating": 3.990174,
-    "reviews": 69311657,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "TikTok Pte. Ltd.",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "id": "com.pinterest",
-    "name": "Pinterest",
-    "slug": "pinterest",
-    "icon": "https://play-lh.googleusercontent.com/VExMwhu9Fe5kz72YnPWP6mHrNA5WfgZ-PJMnBnQmXFpLncTAOaaHtK4b8w7b2xxGxtqycDatYslVyNSLucl9QA",
-    "category": "Lifestyle",
-    "genres": [
-      "LIFESTYLE"
-    ],
-    "rating": 4.291302,
-    "reviews": 11540081,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Pinterest",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-06"
-  },
-  {
-    "id": "com.linkedin.android",
-    "name": "LinkedIn: Community & Network",
-    "slug": "linkedin-community-network",
-    "icon": "https://play-lh.googleusercontent.com/oij55bxj3e-4JrhGntpki0lnQyE8yQn8X5FPEzZ0t7cLppeiSINynEk7n9COoh7QSaCOZ_yiPO31NVaW4SDbWg",
-    "category": "Business",
-    "genres": [
-      "BUSINESS"
-    ],
-    "rating": 3.9524088,
-    "reviews": 3471638,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "LinkedIn",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-06-29"
-  },
-  {
-    "id": "com.reddit.frontpage",
-    "name": "Reddit",
-    "slug": "reddit",
-    "icon": "https://play-lh.googleusercontent.com/8FVS0kvM60JwqZWRNzBIlwrZZxJa8vpli8IWaaTo8QXRe1PHmCNJ8UpWoXkGPV3jKEaTY2OVAeYoisOnGJXY",
-    "category": "Social",
-    "genres": [
-      "SOCIAL"
-    ],
-    "rating": 4.584166,
-    "reviews": 4698846,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "reddit Inc.",
-    "contentRating": "Mature 17+",
-    "lastUpdated": "2026-07-06"
-  },
-  {
-    "id": "com.discord",
-    "name": "Discord - Talk, Play, Hang Out",
-    "slug": "discord-talk-play-hang-out",
-    "icon": "https://play-lh.googleusercontent.com/w2DdjDHGSj3DQElQQM0_J3PsNsALS-WD3CBeH0aXOYceR-F3aT02gFonhoFzz-Tc9ec8Dx9cLqh48-tzIFcP",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 4.295724,
-    "reviews": 6889248,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Discord Inc.",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-02"
-  },
-  {
-    "id": "com.tumblr",
-    "name": "Tumblr: Social Media & Art",
-    "slug": "tumblr-social-media-art",
-    "icon": "https://play-lh.googleusercontent.com/BWSIac9IjPlQwOwxZ3aLzaX_rmP5Dfvkwn1HtSztT16WBOHdJZ6D0JSIz_lo_GatSlql3GlSFZcHuzWqAP5n8g",
-    "category": "Social",
-    "genres": [
-      "SOCIAL"
-    ],
-    "rating": 3.7794533,
-    "reviews": 3741484,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Tumblr, Inc",
-    "contentRating": "Mature 17+",
-    "lastUpdated": "2026-07-04"
-  },
-  {
-    "id": "com.bereal.ft",
-    "name": "BeReal. Your friends for real.",
-    "slug": "bereal-your-friends-for-real",
-    "icon": "https://play-lh.googleusercontent.com/1wQV9aCDVEtT-p2IrMjF_QKuzB5eS3AtfWGgfrZDU-Px5GdTW-R0CmEc14WUC6VzXKpv3P6TuH_7XRXOowGHAg",
-    "category": "Social",
-    "genres": [
-      "SOCIAL"
-    ],
-    "rating": 4.438164,
-    "reviews": 361336,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "VOODOO",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-10"
-  },
-  {
-    "id": "com.whatsapp",
-    "name": "WhatsApp Messenger",
-    "slug": "whatsapp-messenger",
-    "icon": "https://play-lh.googleusercontent.com/Gqxk4T0uZsDwFp07DE-508hkyvcNmgFuRwPiwTEfF7D7OzGv1FdHDzEyMxNsSBZLOJlGpe3ULvVM2RgrRAlBqA",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 4.646517,
-    "reviews": 238700201,
-    "installs": 10000000000,
-    "installsText": "10,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "WhatsApp LLC",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-04"
-  },
-  {
-    "id": "org.telegram.messenger",
-    "name": "Telegram",
-    "slug": "telegram",
-    "icon": "https://play-lh.googleusercontent.com/PyZ3akMGXPV0tKKirKNwfO--PSQW3FHR6rD_H9mAaukZ8LiHyYFuBLeU8UZ2ok6r5SP79-3prkfybWKh98AZAD0",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 3.8651845,
-    "reviews": 17051300,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Telegram FZ-LLC",
-    "contentRating": "Mature 17+",
-    "lastUpdated": "2026-06-18"
-  },
-  {
-    "id": "com.facebook.orca",
-    "name": "Messenger",
-    "slug": "messenger",
-    "icon": "https://play-lh.googleusercontent.com/cuRpiGqvAMkcbAOibD-AKCBagAunUkspQUWC_jVZF2Hob_ODdmkefnZeqkofW1idFQHhgZgnLIjsqT-2v7JKBw",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 4.7142563,
-    "reviews": 112742713,
-    "installs": 5000000000,
-    "installsText": "5,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Meta Platforms, Inc.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-07"
-  },
-  {
-    "id": "com.google.android.apps.messaging",
-    "name": "Google Messages",
-    "slug": "google-messages",
-    "icon": "https://play-lh.googleusercontent.com/Mgukz1fq2stUYX_lQf79gmMeDzNvRCu5eobmiJwNkXl4riNY6HZ3VB-HRW5QciwEuLnFyk_ZmHumvn8RJ5Um",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 4.209524,
-    "reviews": 43631931,
-    "installs": 10000000000,
-    "installsText": "10,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Google LLC",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "id": "com.viber.voip",
-    "name": "Rakuten Viber Messenger",
-    "slug": "rakuten-viber-messenger",
-    "icon": "https://play-lh.googleusercontent.com/iGHZEkEJBBcOyMEETvYrwCXk-eYQ_TaEgBHPKVptKSon4QQHqhD3Zs-tdeINPZucc1sokQ5FJ4ig-YOGh1Lm",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 4.118093,
-    "reviews": 16720878,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Viber Media",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "id": "jp.naver.line.android",
-    "name": "LINE: Calls & Messages",
-    "slug": "line-calls-messages",
-    "icon": "https://play-lh.googleusercontent.com/7PeaZXtTu7EuCuWzGpkXWAnT9pLs_Ly9MbVSeZUULlIc5H02wGWzvrbmqxj86UnkM9gjUaGSeAcKbYbfbegTJw",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 3.1278334,
-    "reviews": 13798281,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "LINE (LY Corporation)",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-06-29"
-  },
-  {
-    "id": "com.microsoft.teams",
-    "name": "Microsoft Teams",
-    "slug": "microsoft-teams",
-    "icon": "https://play-lh.googleusercontent.com/6Dj5fuRhw6aGAeuwW8tQ0UyJOpv14MKtsM0YDx65WOg_zqhxE65wt9XBw9VOzuIMZ-S1hLI9BnnNbaeRkrEf2A",
-    "category": "Business",
-    "genres": [
-      "BUSINESS"
-    ],
-    "rating": 4.6291237,
-    "reviews": 8672983,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Microsoft Corporation",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "id": "us.zoom.videomeetings",
-    "name": "Zoom Workplace",
-    "slug": "zoom-workplace",
-    "icon": "https://play-lh.googleusercontent.com/-Ajlo-aDBHtpCez_yILc8Kepv_kNhbTJPw1WyvXgkh4O-hvUN-YD_v_0FlJmgRbZ2vn1OmZCmCBOY23h4kJYEA",
-    "category": "Business",
-    "genres": [
-      "BUSINESS"
-    ],
-    "rating": 4.1027985,
-    "reviews": 4571719,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "zoom.com",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-06"
-  },
-  {
-    "id": "com.google.android.gm",
-    "name": "Gmail",
-    "slug": "gmail",
-    "icon": "https://play-lh.googleusercontent.com/c6KD_8-GvnGRJA4lRQ4y5YnUa3-LOeYAS7ubw1jWyB9bmr6Kj6zzRvh2A5WBB-Vd3e6zhElmhDv07fCJx2Fc",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 4.081888,
-    "reviews": 14354724,
-    "installs": 10000000000,
-    "installsText": "10,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Google LLC",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "id": "com.yahoo.mobile.client.android.mail",
-    "name": "Yahoo Mail: Email & Planner",
-    "slug": "yahoo-mail-email-planner",
-    "icon": "https://play-lh.googleusercontent.com/qWWpxNSBSTXvDgbnAMpBQEI8QmWXuE8lEhFSxoeBCEoKedY2g2K8-3b0mgxC5M0Xos_BYNfzZJefdlc9q1eZbw",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 4.142723,
-    "reviews": 8733486,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Yahoo",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-02"
-  },
-  {
     "id": "com.microsoft.office.outlook",
     "name": "Microsoft Outlook",
     "slug": "microsoft-outlook",
     "icon": "https://play-lh.googleusercontent.com/cQ6W3fn_i56tK1PDQZlKvpuggupXR-kGyzwCtF1vYw-wK9FS3YDVUTnpfEvpbWXXuqH6aJ1JRD_t5bfAyCD4",
-    "category": "Productivity",
     "genres": [
-      "PRODUCTIVITY"
+      "Productivity"
     ],
-    "rating": 4.3422995,
-    "reviews": 10575985,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
+    "rating": 4.3,
+    "reviews": 347922,
+    "installs": 1691888619,
     "type": "Free",
     "price": 0,
     "developer": "Microsoft Corporation",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-10"
-  },
-  {
-    "id": "com.samsung.android.email.provider",
-    "name": "Samsung Email",
-    "slug": "samsung-email",
-    "icon": "https://play-lh.googleusercontent.com/Ug6c0p_pDN8yRPriANRxfVtodfXypTxwpFnSIFWtBGW5s2sq6ywWg6CBqjr4YO06RRaQp7xYMyizzdlW_geq",
+    "lastUpdated": "2026-07-10",
     "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 4.3717275,
-    "reviews": 2519944,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Samsung Electronics Co.,  Ltd.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-05-20"
+    "features": {
+      "offlineMode": true,
+      "cloudSync": true,
+      "collaboration": true
+    }
   },
   {
     "id": "com.google.android.apps.docs",
     "name": "Google Drive",
     "slug": "google-drive",
     "icon": "https://play-lh.googleusercontent.com/chc-Fx3Qi3BisTZw1aOteYK_XkMHUiXKRbX2Hc8shyFI8pYt7DcyUPzVwLGJKIeKCKDD6nFVhEtUrIaEyzcnmA",
-    "category": "Productivity",
     "genres": [
-      "PRODUCTIVITY"
+      "Productivity"
     ],
-    "rating": 4.2774835,
-    "reviews": 10786951,
-    "installs": 10000000000,
-    "installsText": "10,000,000,000+",
+    "rating": 4.3,
+    "reviews": 179316,
+    "installs": 14182923709,
     "type": "Free",
     "price": 0,
     "developer": "Google LLC",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "id": "com.google.android.apps.docs.editors.sheets",
-    "name": "Google Sheets",
-    "slug": "google-sheets",
-    "icon": "https://play-lh.googleusercontent.com/zgkx9JmU3kqrtXxFnI_aZ2Q6FRQ5C5FSakjDfmIBzGiILdxksFjPKjOY4LOtBAqNsr-1gVqdEilKx571cRJA",
+    "lastUpdated": "2026-07-08",
     "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 4.7705207,
-    "reviews": 2251752,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Google LLC",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-07"
-  },
-  {
-    "id": "com.google.android.apps.docs.editors.slides",
-    "name": "Google Slides",
-    "slug": "google-slides",
-    "icon": "https://play-lh.googleusercontent.com/xqxFEBjrkpXc_RtE9sPfOEftQmPS0KhFg3IHWyaYVS243dIEbQArz1xOhPgfF_s1NCHpVNBPeb5ykWU_LqyUDw",
-    "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 4.2647777,
-    "reviews": 683682,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Google LLC",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-07"
-  },
-  {
-    "id": "com.google.android.keep",
-    "name": "Google Keep - Notes and lists",
-    "slug": "google-keep-notes-and-lists",
-    "icon": "https://play-lh.googleusercontent.com/0AM0MfDO-MWUAKwg8vpbftm7GqvEW1JfLGHCgwsgIemF6hMW61XOVnnNDHCGeRMiYZtVaxV2M-AYoP_zMoJt6w",
-    "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 4.692123,
-    "reviews": 2475458,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Google LLC",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-07"
-  },
-  {
-    "id": "com.google.android.calendar",
-    "name": "Google Calendar",
-    "slug": "google-calendar",
-    "icon": "https://play-lh.googleusercontent.com/vEoqLbT_QkYcEaawWBRc22N6i98OUtOUpM1LmKdVs_xx7lCsUyFfV0ZiqoUXjMijUteiBhhN4K5MpoF96FRNOg",
-    "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 4.6438756,
-    "reviews": 4651992,
-    "installs": 5000000000,
-    "installsText": "5,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Google LLC",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-10"
+    "features": {
+      "offlineMode": true,
+      "cloudSync": true,
+      "collaboration": true
+    }
   },
   {
     "id": "com.todoist",
     "name": "Todoist: To Do List & Calendar",
     "slug": "todoist-to-do-list-calendar",
     "icon": "https://play-lh.googleusercontent.com/03uYCmB2qWmmr-rIL8X_gj20wdIxLPW3bmqf1ZSNlwf_ZjuQYGnNnOB-8ig2CBzwqyf5meCgOgUEzxvC1QY6rg",
-    "category": "Productivity",
     "genres": [
-      "PRODUCTIVITY"
+      "Productivity"
     ],
-    "rating": 4.58297,
-    "reviews": 301635,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
+    "rating": 4.6,
+    "reviews": 16547,
+    "installs": 49014730,
     "type": "Free",
     "price": 0,
     "developer": "Doist Inc.",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "id": "com.evernote",
-    "name": "Evernote - Note Organizer",
-    "slug": "evernote-note-organizer",
-    "icon": "https://play-lh.googleusercontent.com/dVQlfnQ_Fp-wNfKv2eI9XxbLymV6oGW_0ywIw3pxhYyKhjC0Lk8y6Ru_-sUc1fq2akADzAN7QWn8nPvcw6Ck",
+    "lastUpdated": "2026-07-09",
     "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 3.5207765,
-    "reviews": 1848381,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Evernote by Bending Spoons",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-06"
+    "features": {
+      "offlineMode": true,
+      "cloudSync": true,
+      "collaboration": true
+    }
   },
   {
-    "id": "com.microsoft.todos",
-    "name": "Microsoft To Do: Lists & Tasks",
-    "slug": "microsoft-to-do-lists-tasks",
-    "icon": "https://play-lh.googleusercontent.com/0fRzm2MnlTBFTzOc2nnQQvnsW4r3r1m4gN1oo33JDoNejOkgg1iy0BuUNrX81wGd6RRPb-Epwa3w_1jvToiU",
+    "id": "com.google.android.calendar",
+    "name": "Google Calendar",
+    "slug": "google-calendar",
+    "icon": "https://play-lh.googleusercontent.com/vEoqLbT_QkYcEaawWBRc22N6i98OUtOUpM1LmKdVs_xx7lCsUyFfV0ZiqoUXjMijUteiBhhN4K5MpoF96FRNOg",
+    "genres": [
+      "Productivity"
+    ],
+    "rating": 4.6,
+    "reviews": 98322,
+    "installs": 9937383991,
+    "type": "Free",
+    "price": 0,
+    "developer": "Google LLC",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-10",
     "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 4.601846,
-    "reviews": 475992,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Microsoft Corporation",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-05-31"
-  },
-  {
-    "id": "com.asana.app",
-    "name": "Asana: Work Management",
-    "slug": "asana-work-management",
-    "icon": "https://play-lh.googleusercontent.com/4qKQZB7bi5nJjI9rBkw31NxdAfnRHERd-qNfOlXlI4W2nQR7jIu5APPa7GnSqZTx3B5FqhfzwpVcwlIDt4VdFQ",
-    "category": "Business",
-    "genres": [
-      "BUSINESS"
-    ],
-    "rating": 3.9234042,
-    "reviews": 45277,
-    "installs": 5000000,
-    "installsText": "5,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Asana, Inc.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-09"
+    "features": {
+      "offlineMode": true,
+      "cloudSync": true,
+      "collaboration": true
+    }
   },
   {
     "id": "com.trello",
     "name": "Trello: Personal Planner App",
     "slug": "trello-personal-planner-app",
     "icon": "https://play-lh.googleusercontent.com/n61MGuPfTK5t8ETbAAmc2nwy6CQnw5BFCqPSTRdsPbUc2e9MJhKu4GGB6qYgi2-B8-Cx6LVPPGqUKNkgPnO-xg",
-    "category": "Productivity",
     "genres": [
-      "PRODUCTIVITY"
+      "Productivity"
     ],
-    "rating": 3.8132296,
-    "reviews": 122324,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
+    "rating": 3.8,
+    "reviews": 4853,
+    "installs": 30498043,
     "type": "Free",
     "price": 0,
     "developer": "Atlassian",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "id": "com.anydo",
-    "name": "Any.do - To do list & Calendar",
-    "slug": "any-do-to-do-list-calendar",
-    "icon": "https://play-lh.googleusercontent.com/LWXoxr-_uTPP-7qbwNJXaTpNf-G6YbqdhqySVpJNpFYYe0VbSaA2ELXgLfEXJBMJLbBuRN4d2xu3_hsYbFYUUPI",
+    "lastUpdated": "2026-07-09",
     "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 4.4019136,
-    "reviews": 504725,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Any.do To-do list & Calendar",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-06-01"
-  },
-  {
-    "id": "com.ticktick.task",
-    "name": "TickTick:To Do List & Calendar",
-    "slug": "ticktick-to-do-list-calendar",
-    "icon": "https://play-lh.googleusercontent.com/cStkq8fqyxyFJc2mK1_MT8aNhsaU_Fy5cD5jd6-bsshZf-pC_WAdyR-iw7NIe99W5A2wNEXBGuzOtDorNcSSJIk",
-    "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 4.5911875,
-    "reviews": 161329,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "TickTick Limited",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-01"
+    "features": {
+      "offlineMode": false,
+      "cloudSync": true,
+      "collaboration": true
+    }
   },
   {
     "id": "com.microsoft.office.word",
     "name": "Microsoft Word: Edit Documents",
     "slug": "microsoft-word-edit-documents",
     "icon": "https://play-lh.googleusercontent.com/FRNCqOBET5SQO_mtuKLb1f9Y9kVvU3wsQ9Hqni1S2jteiglIJLRdZ10XMe0VYb1gQJXM3OVa7uxxfny_wyOO-g",
-    "category": "Productivity",
     "genres": [
-      "PRODUCTIVITY"
+      "Productivity"
     ],
-    "rating": 4.7816963,
-    "reviews": 16758432,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
+    "rating": 4.8,
+    "reviews": 118281,
+    "installs": 2642945983,
     "type": "Free",
     "price": 0,
     "developer": "Microsoft Corporation",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-08",
+    "category": "Productivity",
+    "features": {
+      "offlineMode": true,
+      "cloudSync": true,
+      "collaboration": true
+    }
   },
   {
     "id": "com.microsoft.office.excel",
     "name": "Microsoft Excel: Spreadsheets",
     "slug": "microsoft-excel-spreadsheets",
     "icon": "https://play-lh.googleusercontent.com/Wbq7u5yCFe9dqtZv1Gp3E1OefzPmNKoYRJ1m0J9hVyqfhxd9c-CC_mJZn3ZVl_mE-uTmeVN8CiRMQ6ZgC3MNb0o",
-    "category": "Productivity",
     "genres": [
-      "PRODUCTIVITY"
+      "Productivity"
     ],
-    "rating": 4.794935,
-    "reviews": 9263463,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
+    "rating": 4.8,
+    "reviews": 49065,
+    "installs": 2382266545,
     "type": "Free",
     "price": 0,
     "developer": "Microsoft Corporation",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-08",
+    "category": "Productivity",
+    "features": {
+      "offlineMode": true,
+      "cloudSync": true,
+      "collaboration": true
+    }
   },
   {
     "id": "com.microsoft.office.powerpoint",
     "name": "Microsoft PowerPoint",
     "slug": "microsoft-powerpoint",
     "icon": "https://play-lh.googleusercontent.com/6YGG38PZlwEnUFn9LJWFQ0-e5EHaGxMFCY6-CF-qbfYjwcZD7KEWhgXHs7MWD9DlFJBd0L3d5YkF-0n56m3t1A",
-    "category": "Productivity",
     "genres": [
-      "PRODUCTIVITY"
+      "Productivity"
     ],
-    "rating": 4.7964396,
-    "reviews": 4138804,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
+    "rating": 4.8,
+    "reviews": 18877,
+    "installs": 2313890556,
     "type": "Free",
     "price": 0,
     "developer": "Microsoft Corporation",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-08",
+    "category": "Productivity",
+    "features": {
+      "offlineMode": true,
+      "cloudSync": true,
+      "collaboration": true
+    }
   },
   {
-    "id": "com.microsoft.office.officehubrow",
-    "name": "Microsoft 365 Copilot",
-    "slug": "microsoft-365-copilot",
-    "icon": "https://play-lh.googleusercontent.com/dq5TBOyIdEEXJkJADfH07pPh8afZhR6kCTdfNd511qa5dl0nGM9wnlRSHqFa9glAtUBk-LIwsDcTdgKgsbLYdAA",
-    "category": "Productivity",
+    "id": "com.adobe.reader",
+    "name": "Adobe Acrobat Reader: Edit PDF",
+    "slug": "adobe-acrobat-reader-edit-pdf",
+    "icon": "https://play-lh.googleusercontent.com/VIohTA3wyJgKJ-SZzoJeYuykxyVFCbSmXFAjefIGQybY57FX44VCHyVa3CTOZROzWLbMc-VFwL4CEDj47LeRpM0",
     "genres": [
-      "PRODUCTIVITY"
+      "Productivity"
     ],
-    "rating": 4.517238,
-    "reviews": 9072160,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
+    "rating": 4.5,
+    "reviews": 145596,
+    "installs": 916841632,
+    "type": "Free",
+    "price": 0,
+    "developer": "Adobe",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-03",
+    "category": "Productivity",
+    "features": {
+      "offlineMode": true,
+      "cloudSync": true,
+      "collaboration": false
+    }
+  },
+  {
+    "id": "com.google.android.apps.docs.editors.sheets",
+    "name": "Google Sheets",
+    "slug": "google-sheets",
+    "icon": "https://play-lh.googleusercontent.com/zgkx9JmU3kqrtXxFnI_aZ2Q6FRQ5C5FSakjDfmIBzGiILdxksFjPKjOY4LOtBAqNsr-1gVqdEilKx571cRJA",
+    "genres": [
+      "Productivity"
+    ],
+    "rating": 4.8,
+    "reviews": 24396,
+    "installs": 1738993111,
+    "type": "Free",
+    "price": 0,
+    "developer": "Google LLC",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-07",
+    "category": "Productivity",
+    "features": {
+      "offlineMode": true,
+      "cloudSync": true,
+      "collaboration": true
+    }
+  },
+  {
+    "id": "notion.id",
+    "name": "Notion: Notes, Tasks, AI",
+    "slug": "notion-notes-tasks-ai",
+    "icon": "https://play-lh.googleusercontent.com/-GY1Xv9hhhK_RFJCCb-rvDX8OMR8Fj68AgcRIFcD8zIXlOA8pG-L-cuOJbgSs_U6GGGyGs8qiiQsjIfEBazE8g",
+    "genres": [
+      "Productivity"
+    ],
+    "rating": 4.6,
+    "reviews": 4765,
+    "installs": 41411153,
+    "type": "Free",
+    "price": 0,
+    "developer": "Notion Labs, Inc.",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-10",
+    "category": "Notes",
+    "features": {
+      "offlineMode": false,
+      "cloudSync": true,
+      "collaboration": true
+    }
+  },
+  {
+    "id": "com.evernote",
+    "name": "Evernote - Note Organizer",
+    "slug": "evernote-note-organizer",
+    "icon": "https://play-lh.googleusercontent.com/dVQlfnQ_Fp-wNfKv2eI9XxbLymV6oGW_0ywIw3pxhYyKhjC0Lk8y6Ru_-sUc1fq2akADzAN7QWn8nPvcw6Ck",
+    "genres": [
+      "Productivity"
+    ],
+    "rating": 3.5,
+    "reviews": 197355,
+    "installs": 378247434,
+    "type": "Free",
+    "price": 0,
+    "developer": "Evernote by Bending Spoons",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-06",
+    "category": "Notes",
+    "features": {
+      "offlineMode": true,
+      "cloudSync": true,
+      "collaboration": false
+    }
+  },
+  {
+    "id": "com.microsoft.office.onenote",
+    "name": "Microsoft OneNote: Save Notes",
+    "slug": "microsoft-onenote-save-notes",
+    "icon": "https://play-lh.googleusercontent.com/et2mBcPlX10BHjyvlUCf90wAPbdIuaB_o1JhI4q3wHXcEq8MwKfsOYwpRW7aG2iXr_K05LVq6_LqUsNUWUt9BhM",
+    "genres": [
+      "Productivity"
+    ],
+    "rating": 4.6,
+    "reviews": 53558,
+    "installs": 1007384194,
     "type": "Free",
     "price": 0,
     "developer": "Microsoft Corporation",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "id": "com.dropbox.android",
-    "name": "Dropbox: Secure Cloud Storage",
-    "slug": "dropbox-secure-cloud-storage",
-    "icon": "https://play-lh.googleusercontent.com/A8rNctsbRVnv05n6gwR74kN68SuSaBW-B9NTdCrq62snoMxMnedV2PGZaatv-sPS9ygdVvXUomyRfGWa8Xul1Q",
-    "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 4.382677,
-    "reviews": 2328280,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Dropbox, Inc.",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-06-30"
+    "lastUpdated": "2026-05-26",
+    "category": "Notes",
+    "features": {
+      "offlineMode": true,
+      "cloudSync": true,
+      "collaboration": true
+    }
   },
   {
-    "id": "com.box.android",
-    "name": "Box",
-    "slug": "box",
-    "icon": "https://play-lh.googleusercontent.com/VdHgiAJATO7I2ixAM0w2OV0rDWCbebLnN-9Z90m-jpZiTXutskGKsZqOXzBzvgUTz-dqwjXvzFv61XeUyXcIcbs",
-    "category": "Business",
+    "id": "com.google.android.keep",
+    "name": "Google Keep - Notes and lists",
+    "slug": "google-keep-notes-and-lists",
+    "icon": "https://play-lh.googleusercontent.com/0AM0MfDO-MWUAKwg8vpbftm7GqvEW1JfLGHCgwsgIemF6hMW61XOVnnNDHCGeRMiYZtVaxV2M-AYoP_zMoJt6w",
     "genres": [
-      "BUSINESS"
+      "Productivity"
     ],
-    "rating": 4.398104,
-    "reviews": 207236,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Box",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-06-22"
-  },
-  {
-    "id": "com.paypal.android.p2pmobile",
-    "name": "PayPal - Pay, Send, Save",
-    "slug": "paypal-pay-send-save",
-    "icon": "https://play-lh.googleusercontent.com/9SeHb3IaNFm7sXRQmWZaL5MHqVn4qcBGz12sPgjBisZCFMyZPOCXUFOZIttUu-CiTqQz3alXL7jxxGW1Y4fn",
-    "category": "Finance",
-    "genres": [
-      "FINANCE"
-    ],
-    "rating": 4.2436433,
-    "reviews": 3697769,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "PayPal Mobile",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-04"
-  },
-  {
-    "id": "com.venmo",
-    "name": "Venmo",
-    "slug": "venmo",
-    "icon": "https://play-lh.googleusercontent.com/s267iqvFKVUycSszMaLy6sbcmKa8iKtodrOB60cuKj13U4BKpgKIxmiknUEmaORMbV-yBXCeEL9ybIZSw1qu",
-    "category": "Finance",
-    "genres": [
-      "FINANCE"
-    ],
-    "rating": 4.0347757,
-    "reviews": 909292,
-    "installs": 50000000,
-    "installsText": "50,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Venmo",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-06-25"
-  },
-  {
-    "id": "com.squareup.cash",
-    "name": "Cash App",
-    "slug": "cash-app",
-    "icon": "https://play-lh.googleusercontent.com/pBe5_NoQ0uojR_XLb_5f2mMxVOnFczommOo5Ho297TYnkqt6I26YM3X2cpKtowkLsxe27IdhP1gQz-Mq4OSQ",
-    "category": "Finance",
-    "genres": [
-      "FINANCE"
-    ],
-    "rating": 4.7031713,
-    "reviews": 4331517,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Block, Inc.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-10"
-  },
-  {
-    "id": "com.coinbase.android",
-    "name": "Coinbase: Buy Crypto & Stocks",
-    "slug": "coinbase-buy-crypto-stocks",
-    "icon": "https://play-lh.googleusercontent.com/0xUsZcZsSX0zdi0DeHI7kLrzG8SP_fG7OV68IKZlIgnw4DVfMBJHNccxxY6AxL2PiOXpmpQVowswjfefHS8_sg",
-    "category": "Finance",
-    "genres": [
-      "FINANCE"
-    ],
-    "rating": 4.3536386,
-    "reviews": 926909,
-    "installs": 50000000,
-    "installsText": "50,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Coinbase Inc",
-    "contentRating": "Adults only 18+",
-    "lastUpdated": "2026-06-25"
-  },
-  {
-    "id": "com.binance.dev",
-    "name": "Binance: Buy Bitcoin & Crypto",
-    "slug": "binance-buy-bitcoin-crypto",
-    "icon": "https://play-lh.googleusercontent.com/AszKJvepgh4ET5vuIbLqJoFD5QU4OhGMqJ6AdpskXjIqh0tr1uyq7VOkbvHXLsPWoMTClCiIKyIBDE1k7efB",
-    "category": "Finance",
-    "genres": [
-      "FINANCE"
-    ],
-    "rating": 4.7573376,
-    "reviews": 4444730,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Binance Inc.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-06-25"
-  },
-  {
-    "id": "com.revolut.revolut",
-    "name": "Revolut: Spend, Save, Trade",
-    "slug": "revolut-spend-save-trade",
-    "icon": "https://play-lh.googleusercontent.com/LVmCH4DeBgO8Gyp69sApakf-KSy5Xf9ytV-NUmZnB2ZUKuIS0ee6cSACkalsLKuoQ1MorU7-0wW1xKZ6FUlS",
-    "category": "Finance",
-    "genres": [
-      "FINANCE"
-    ],
-    "rating": 4.456848,
-    "reviews": 4033867,
-    "installs": 50000000,
-    "installsText": "50,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Revolut Ltd",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-07"
-  },
-  {
-    "id": "com.robinhood.android",
-    "name": "Robinhood: Trade Anything",
-    "slug": "robinhood-trade-anything",
-    "icon": "https://play-lh.googleusercontent.com/R7g-5An--X2ySByrOhG683RG7y55wcf3jbSFJchWSaeas6z6aG7WItSf2bRm6V6Sp5EeuW0AoR4lsJOSMVhwAw",
-    "category": "Finance",
-    "genres": [
-      "FINANCE"
-    ],
-    "rating": 4.1570973,
-    "reviews": 530739,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Robinhood",
-    "contentRating": "Adults only 18+",
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "id": "com.sofi.mobile",
-    "name": "SoFi: Bank, Investing & Crypto",
-    "slug": "sofi-bank-investing-crypto",
-    "icon": "https://play-lh.googleusercontent.com/ID7tWNMM566_AdaL54TGh-r1iBOKsYq69QCRgmM8IGF2k6qbPYdRYoQhndGbSGofF2xoVC5BCO1HyDJn_PF9xg",
-    "category": "Finance",
-    "genres": [
-      "FINANCE"
-    ],
-    "rating": 3.7890272,
-    "reviews": 53053,
-    "installs": 5000000,
-    "installsText": "5,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Social Finance, LLC",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-10"
-  },
-  {
-    "id": "com.myfitnesspal.android",
-    "name": "MyFitnessPal: Calorie Counter",
-    "slug": "myfitnesspal-calorie-counter",
-    "icon": "https://play-lh.googleusercontent.com/iGPZDsKZoF58BABAEIebIQk_X1sdYHviEJAwUyoYyJO4L-bN8XA6yWiXuBJcVJwIEc4wHSvxWjbFU23Y7cn1sMo",
-    "category": "Health & Fitness",
-    "genres": [
-      "HEALTH_AND_FITNESS"
-    ],
-    "rating": 4.3947697,
-    "reviews": 2903815,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "MyFitnessPal, Inc.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-02"
-  },
-  {
-    "id": "com.strava",
-    "name": "Strava: Run, Bike, Walk",
-    "slug": "strava-run-bike-walk",
-    "icon": "https://play-lh.googleusercontent.com/J4LN2qH2PQkZ3sFQonz-HWYkd7M38BtEO4Grzh1Xn7L2J6NUILHPkhYvPjdhMZQzrdm4BarUj547wfthyMz_vWM",
-    "category": "Health & Fitness",
-    "genres": [
-      "HEALTH_AND_FITNESS"
-    ],
-    "rating": 4.5896406,
-    "reviews": 1143198,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Strava Inc.",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-07"
-  },
-  {
-    "id": "com.nike.ntc",
-    "name": "Nike Training Club",
-    "slug": "nike-training-club",
-    "icon": "https://play-lh.googleusercontent.com/GQqY9v4zcMbf1JCmlKjlFjI-JAKFX3-ypQYiH8Ew_LuxrjLMZm3VtT-E2CyNFSCPdmjuNidHnyCrXyPFDBsE0g",
-    "category": "Health & Fitness",
-    "genres": [
-      "HEALTH_AND_FITNESS"
-    ],
-    "rating": 4.3345947,
-    "reviews": 372763,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Nike, Inc.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-04-27"
-  },
-  {
-    "id": "com.fitbit.FitbitMobile",
-    "name": "Google Health (Fitbit)",
-    "slug": "google-health-fitbit",
-    "icon": "https://play-lh.googleusercontent.com/W1N5QAjSPsNwmwLo135MWqTnlCpkULVTVvf4eN_FekTOJ3gV53vi_lhxd3pk8oVXdUuqKPU8SkhA1iRnPzJeng",
-    "category": "Health & Fitness",
-    "genres": [
-      "HEALTH_AND_FITNESS"
-    ],
-    "rating": 3.7376046,
-    "reviews": 1292103,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
+    "rating": 4.7,
+    "reviews": 59194,
+    "installs": 3995130482,
     "type": "Free",
     "price": 0,
     "developer": "Google LLC",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-07",
+    "category": "Notes",
+    "features": {
+      "offlineMode": true,
+      "cloudSync": true,
+      "collaboration": true
+    }
   },
   {
-    "id": "com.google.android.apps.fitness",
-    "name": "Google Fit: Activity Tracking",
-    "slug": "google-fit-activity-tracking",
-    "icon": "https://play-lh.googleusercontent.com/JX8RAoUFybCYzCLp5bNhqeXCmhqqzXf4sX81-XsokkOJXqZyw5N83wpzrtHlILhFBkFmuhhM51z9wSLXQrEa",
-    "category": "Health & Fitness",
+    "id": "com.simplemobiletools.notes",
+    "name": "Simple Notes",
+    "slug": "simple-notes",
+    "icon": "https://play-lh.googleusercontent.com/shIvJRZYbpCGXGocAfLfNiU73YYqBL2BJIPiTebz7wHoaplWIceiDNM6tBsrvKR_kn5ztbOEEqAqejeARVt2tg",
     "genres": [
-      "HEALTH_AND_FITNESS"
+      "Productivity"
     ],
-    "rating": 3.4496586,
-    "reviews": 682219,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
+    "rating": 4.2,
+    "reviews": 530,
+    "installs": 2816259,
+    "type": "Free",
+    "price": 0,
+    "developer": "Simple Mobile Tool",
+    "contentRating": "Everyone",
+    "lastUpdated": "2025-09-17",
+    "category": "Notes",
+    "features": {
+      "offlineMode": true,
+      "cloudSync": false,
+      "collaboration": false
+    }
+  },
+  {
+    "id": "net.cozic.joplin",
+    "name": "Joplin",
+    "slug": "joplin",
+    "icon": "https://play-lh.googleusercontent.com/lx6f5uHywPtp3Qa16q_db_6o8k5ZEWeArQ4zUcvv8Df2vVT48t15902s-G1P6A_7llxKH9Ob6Jxof0Cm9t-5OQ",
+    "genres": [
+      "Productivity"
+    ],
+    "rating": 3.9,
+    "reviews": 632,
+    "installs": 835604,
+    "type": "Free",
+    "price": 0,
+    "developer": "Laurent Cozic",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-06-20",
+    "category": "Notes",
+    "features": {
+      "offlineMode": true,
+      "cloudSync": true,
+      "collaboration": false
+    }
+  },
+  {
+    "id": "com.whatsapp",
+    "name": "WhatsApp Messenger",
+    "slug": "whatsapp-messenger",
+    "icon": "https://play-lh.googleusercontent.com/Gqxk4T0uZsDwFp07DE-508hkyvcNmgFuRwPiwTEfF7D7OzGv1FdHDzEyMxNsSBZLOJlGpe3ULvVM2RgrRAlBqA",
+    "genres": [
+      "Communication"
+    ],
+    "rating": 4.6,
+    "reviews": 1959020,
+    "installs": 12112508342,
+    "type": "Free",
+    "price": 0,
+    "developer": "WhatsApp LLC",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-04",
+    "category": "Communication",
+    "features": {
+      "readReceipts": true,
+      "voiceCall": true,
+      "videoCall": true,
+      "e2eEncryption": true
+    }
+  },
+  {
+    "id": "com.google.android.apps.messaging",
+    "name": "Google Messages",
+    "slug": "google-messages",
+    "icon": "https://play-lh.googleusercontent.com/Mgukz1fq2stUYX_lQf79gmMeDzNvRCu5eobmiJwNkXl4riNY6HZ3VB-HRW5QciwEuLnFyk_ZmHumvn8RJ5Um",
+    "genres": [
+      "Communication"
+    ],
+    "rating": 4.2,
+    "reviews": 690087,
+    "installs": 11207105622,
     "type": "Free",
     "price": 0,
     "developer": "Google LLC",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-09",
+    "category": "Communication",
+    "features": {
+      "readReceipts": true,
+      "voiceCall": false,
+      "videoCall": false,
+      "e2eEncryption": true
+    }
   },
   {
-    "id": "com.adidas.app",
-    "name": "adidas: Shop Shoes & Clothing",
-    "slug": "adidas-shop-shoes-clothing",
-    "icon": "https://play-lh.googleusercontent.com/nvTUy38MgHtKlsFGe-ZOIy1YmYwN1f2P6raNHmNrrWGW4rXGWY3Mz1Gmvv9ci9LVn-0sI9BwaSj6vrEfL-EA8A",
-    "category": "Shopping",
+    "id": "us.zoom.videomeetings",
+    "name": "Zoom Workplace",
+    "slug": "zoom-workplace",
+    "icon": "https://play-lh.googleusercontent.com/-Ajlo-aDBHtpCez_yILc8Kepv_kNhbTJPw1WyvXgkh4O-hvUN-YD_v_0FlJmgRbZ2vn1OmZCmCBOY23h4kJYEA",
     "genres": [
-      "SHOPPING"
+      "Business"
     ],
-    "rating": 4.7024918,
-    "reviews": 646953,
-    "installs": 50000000,
-    "installsText": "50,000,000+",
+    "rating": 4.1,
+    "reviews": 75129,
+    "installs": 1443598426,
     "type": "Free",
     "price": 0,
-    "developer": "adidas",
+    "developer": "zoom.com",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-06",
+    "category": "Communication",
+    "features": {
+      "readReceipts": false,
+      "voiceCall": true,
+      "videoCall": true,
+      "e2eEncryption": true
+    }
   },
   {
-    "id": "com.calm.android",
-    "name": "Calm - Sleep, Meditate, Relax",
-    "slug": "calm-sleep-meditate-relax",
-    "icon": "https://play-lh.googleusercontent.com/Xkdn4M50zGD8JQk4jsNSAu_s5XaaPJDDTifjTi52R3lnKYYhva9mnNsxKG3rE2Ib-yspI90WWXrIqneMHlL0ag",
-    "category": "Health & Fitness",
+    "id": "com.discord",
+    "name": "Discord - Talk, Play, Hang Out",
+    "slug": "discord-talk-play-hang-out",
+    "icon": "https://play-lh.googleusercontent.com/w2DdjDHGSj3DQElQQM0_J3PsNsALS-WD3CBeH0aXOYceR-F3aT02gFonhoFzz-Tc9ec8Dx9cLqh48-tzIFcP",
     "genres": [
-      "HEALTH_AND_FITNESS"
+      "Communication"
     ],
-    "rating": 4.470678,
-    "reviews": 613111,
-    "installs": 50000000,
-    "installsText": "50,000,000+",
+    "rating": 4.3,
+    "reviews": 318684,
+    "installs": 673242771,
     "type": "Free",
     "price": 0,
-    "developer": "Calm.com, Inc.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-06"
+    "developer": "Discord Inc.",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-11",
+    "category": "Communication",
+    "features": {
+      "readReceipts": false,
+      "voiceCall": true,
+      "videoCall": true,
+      "e2eEncryption": false
+    }
   },
   {
-    "id": "com.getsomeheadspace.android",
-    "name": "Headspace: Sleep & Meditate",
-    "slug": "headspace-sleep-meditate",
-    "icon": "https://play-lh.googleusercontent.com/kp_QagG6AodramfhZ7-ErzFuA86QOUAZDIYl5KlBlnPr0Lb_ys98unvi5Ej_MWo5Kr8TRIkNz46IxISRyXot",
-    "category": "Health & Fitness",
+    "id": "org.telegram.messenger",
+    "name": "Telegram",
+    "slug": "telegram",
+    "icon": "https://play-lh.googleusercontent.com/PyZ3akMGXPV0tKKirKNwfO--PSQW3FHR6rD_H9mAaukZ8LiHyYFuBLeU8UZ2ok6r5SP79-3prkfybWKh98AZAD0",
     "genres": [
-      "HEALTH_AND_FITNESS"
+      "Communication"
     ],
-    "rating": 4.2691765,
-    "reviews": 339929,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
+    "rating": 3.9,
+    "reviews": 184064,
+    "installs": 2906173195,
     "type": "Free",
     "price": 0,
-    "developer": "Headspace for Meditation, Mindfulness and Sleep",
+    "developer": "Telegram FZ-LLC",
+    "contentRating": "Mature 17+",
+    "lastUpdated": "2026-06-18",
+    "category": "Communication",
+    "features": {
+      "readReceipts": true,
+      "voiceCall": true,
+      "videoCall": true,
+      "e2eEncryption": true
+    }
+  },
+  {
+    "id": "com.viber.voip",
+    "name": "Rakuten Viber Messenger",
+    "slug": "rakuten-viber-messenger",
+    "icon": "https://play-lh.googleusercontent.com/iGHZEkEJBBcOyMEETvYrwCXk-eYQ_TaEgBHPKVptKSon4QQHqhD3Zs-tdeINPZucc1sokQ5FJ4ig-YOGh1Lm",
+    "genres": [
+      "Communication"
+    ],
+    "rating": 4.1,
+    "reviews": 387683,
+    "installs": 1298868999,
+    "type": "Free",
+    "price": 0,
+    "developer": "Viber Media",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-08",
+    "category": "Communication",
+    "features": {
+      "readReceipts": true,
+      "voiceCall": true,
+      "videoCall": true,
+      "e2eEncryption": true
+    }
+  },
+  {
+    "id": "org.thoughtcrime.securesms",
+    "name": "Signal Private Messenger",
+    "slug": "signal-private-messenger",
+    "icon": "https://play-lh.googleusercontent.com/HXEs85Okatm4_lZMmCaLFk3iXQ6_lrr00i8nsxaqBRSy6VGnsP7F50dKUfrO37Sj0nxtzSjMpKbjgWh6d0PTyEA",
+    "genres": [
+      "Communication"
+    ],
+    "rating": 4.5,
+    "reviews": 134022,
+    "installs": 197516510,
+    "type": "Free",
+    "price": 0,
+    "developer": "Signal Foundation",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-07-06",
+    "category": "Communication",
+    "features": {
+      "readReceipts": true,
+      "voiceCall": true,
+      "videoCall": true,
+      "e2eEncryption": true
+    }
+  },
+  {
+    "id": "com.tencent.mm",
+    "name": "WeChat",
+    "slug": "wechat",
+    "icon": "https://play-lh.googleusercontent.com/dsQ_iB6i-B_FSmgaOpLA-FmHC5U7pjqzV7P6FFr0USeKEl2Y7LqsLQIEeqhjweXHMLUKBF_WOf2TmMOxcYcT",
+    "genres": [
+      "Communication"
+    ],
+    "rating": 2.9,
+    "reviews": 201806,
+    "installs": 459352321,
+    "type": "Free",
+    "price": 0,
+    "developer": "WeChat",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-04-10",
+    "category": "Communication",
+    "features": {
+      "readReceipts": true,
+      "voiceCall": true,
+      "videoCall": true,
+      "e2eEncryption": false
+    }
+  },
+  {
+    "id": "jp.naver.line.android",
+    "name": "LINE: Calls & Messages",
+    "slug": "line-calls-messages",
+    "icon": "https://play-lh.googleusercontent.com/7PeaZXtTu7EuCuWzGpkXWAnT9pLs_Ly9MbVSeZUULlIc5H02wGWzvrbmqxj86UnkM9gjUaGSeAcKbYbfbegTJw",
+    "genres": [
+      "Communication"
+    ],
+    "rating": 3.1,
+    "reviews": 235634,
+    "installs": 1089112783,
+    "type": "Free",
+    "price": 0,
+    "developer": "LINE (LY Corporation)",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-06-29",
+    "category": "Communication",
+    "features": {
+      "readReceipts": true,
+      "voiceCall": true,
+      "videoCall": true,
+      "e2eEncryption": true
+    }
+  },
+  {
+    "id": "com.instagram.android",
+    "name": "Instagram",
+    "slug": "instagram",
+    "icon": "https://play-lh.googleusercontent.com/yHi59jmO_lVamcyJ1i3rM1_E8bAiAspShnGjjURq05ipQQSUksO3QVEsXTegRSqul038-4YNA7O644XAcx251Q",
+    "genres": [
+      "Social"
+    ],
+    "rating": 4,
+    "reviews": 4556775,
+    "installs": 7585000146,
+    "type": "Free",
+    "price": 0,
+    "developer": "Instagram",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-06",
+    "category": "Social",
+    "features": {
+      "stories": true,
+      "directMessaging": true,
+      "liveStreaming": true,
+      "groupChats": true
+    }
+  },
+  {
+    "id": "com.zhiliaoapp.musically",
+    "name": "TikTok - Videos, Shop & LIVE",
+    "slug": "tiktok-videos-shop-live",
+    "icon": "https://play-lh.googleusercontent.com/2o7iuqPe-0msP3DvNhzoOgNo4eZ6GkL_RtGVeKyBn5UBQAW5cw-GW5V3wDOHB1yTQuqWzrFLFOv2u4_5ea1uhg",
+    "genres": [
+      "Social"
+    ],
+    "rating": 4,
+    "reviews": 2253564,
+    "installs": 4558257822,
+    "type": "Free",
+    "price": 0,
+    "developer": "TikTok Pte. Ltd.",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-09",
+    "category": "Social",
+    "features": {
+      "stories": true,
+      "directMessaging": true,
+      "liveStreaming": true,
+      "groupChats": false
+    }
+  },
+  {
+    "id": "com.snapchat.android",
+    "name": "Snapchat",
+    "slug": "snapchat",
+    "icon": "https://play-lh.googleusercontent.com/nOJWJoDAzuRSHmlFfpzHXAj8UbTJwk_JGYf0uAPTKPtiiIX_2Y7r5ATO1ZtxHRqaFTqfIDZ40PnBK4hukeJh",
+    "genres": [
+      "Communication"
+    ],
+    "rating": 4.2,
+    "reviews": 1779276,
+    "installs": 4176224891,
+    "type": "Free",
+    "price": 0,
+    "developer": "Snap Inc",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-07",
+    "category": "Social",
+    "features": {
+      "stories": true,
+      "directMessaging": true,
+      "liveStreaming": false,
+      "groupChats": true
+    }
+  },
+  {
+    "id": "com.facebook.katana",
+    "name": "Facebook",
+    "slug": "facebook",
+    "icon": "https://play-lh.googleusercontent.com/12KEJDhgk6oyE1VgmfCuFzFrQripZ_endElbvEhU1rZawQgV3RI-v3II8fDslI1sdC_WKBkmtxS3jxuIihk33Q",
+    "genres": [
+      "Social"
+    ],
+    "rating": 4.6,
+    "reviews": 4238925,
+    "installs": 11851124305,
+    "type": "Free",
+    "price": 0,
+    "developer": "Meta Platforms, Inc.",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-08",
+    "category": "Social",
+    "features": {
+      "stories": true,
+      "directMessaging": true,
+      "liveStreaming": true,
+      "groupChats": true
+    }
+  },
+  {
+    "id": "com.linkedin.android",
+    "name": "LinkedIn: Community & Network",
+    "slug": "linkedin-community-network",
+    "icon": "https://play-lh.googleusercontent.com/oij55bxj3e-4JrhGntpki0lnQyE8yQn8X5FPEzZ0t7cLppeiSINynEk7n9COoh7QSaCOZ_yiPO31NVaW4SDbWg",
+    "genres": [
+      "Business"
+    ],
+    "rating": 4,
+    "reviews": 103152,
+    "installs": 2366644913,
+    "type": "Free",
+    "price": 0,
+    "developer": "LinkedIn",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-06-29",
+    "category": "Social",
+    "features": {
+      "stories": true,
+      "directMessaging": true,
+      "liveStreaming": false,
+      "groupChats": true
+    }
+  },
+  {
+    "id": "com.pinterest",
+    "name": "Pinterest",
+    "slug": "pinterest",
+    "icon": "https://play-lh.googleusercontent.com/VExMwhu9Fe5kz72YnPWP6mHrNA5WfgZ-PJMnBnQmXFpLncTAOaaHtK4b8w7b2xxGxtqycDatYslVyNSLucl9QA",
+    "genres": [
+      "Lifestyle"
+    ],
+    "rating": 4.3,
+    "reviews": 703630,
+    "installs": 1555161610,
+    "type": "Free",
+    "price": 0,
+    "developer": "Pinterest",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-06",
+    "category": "Social",
+    "features": {
+      "stories": false,
+      "directMessaging": true,
+      "liveStreaming": false,
+      "groupChats": false
+    }
+  },
+  {
+    "id": "com.twitter.android",
+    "name": "X",
+    "slug": "x",
+    "icon": "https://play-lh.googleusercontent.com/IsLsCD4eLC2CYvlkgTI6Z5TROj0BJIBgUF7BZ5eliTzyyTjqG_mbofeG4kw2s7oG_JZMSi5ErLz_qsDi169C8w",
+    "genres": [
+      "News & Magazines"
+    ],
+    "rating": 3.7,
+    "reviews": 786926,
+    "installs": 1862614827,
+    "type": "Free",
+    "price": 0,
+    "developer": "X Corp.",
+    "contentRating": "Mature 17+",
+    "lastUpdated": "2026-07-09",
+    "category": "Social",
+    "features": {
+      "stories": false,
+      "directMessaging": true,
+      "liveStreaming": true,
+      "groupChats": false
+    }
+  },
+  {
+    "id": "com.reddit.frontpage",
+    "name": "Reddit",
+    "slug": "reddit",
+    "icon": "https://play-lh.googleusercontent.com/8FVS0kvM60JwqZWRNzBIlwrZZxJa8vpli8IWaaTo8QXRe1PHmCNJ8UpWoXkGPV3jKEaTY2OVAeYoisOnGJXY",
+    "genres": [
+      "Social"
+    ],
+    "rating": 4.6,
+    "reviews": 338441,
+    "installs": 243019032,
+    "type": "Free",
+    "price": 0,
+    "developer": "reddit Inc.",
+    "contentRating": "Mature 17+",
+    "lastUpdated": "2026-07-06",
+    "category": "Social",
+    "features": {
+      "stories": false,
+      "directMessaging": true,
+      "liveStreaming": false,
+      "groupChats": false
+    }
+  },
+  {
+    "id": "com.tumblr",
+    "name": "Tumblr: Social Media & Art",
+    "slug": "tumblr-social-media-art",
+    "icon": "https://play-lh.googleusercontent.com/BWSIac9IjPlQwOwxZ3aLzaX_rmP5Dfvkwn1HtSztT16WBOHdJZ6D0JSIz_lo_GatSlql3GlSFZcHuzWqAP5n8g",
+    "genres": [
+      "Social"
+    ],
+    "rating": 3.8,
+    "reviews": 331667,
+    "installs": 149688962,
+    "type": "Free",
+    "price": 0,
+    "developer": "Tumblr, Inc",
+    "contentRating": "Mature 17+",
+    "lastUpdated": "2026-07-04",
+    "category": "Social",
+    "features": {
+      "stories": false,
+      "directMessaging": true,
+      "liveStreaming": false,
+      "groupChats": false
+    }
+  },
+  {
+    "id": "org.joinmastodon.android",
+    "name": "Mastodon",
+    "slug": "mastodon",
+    "icon": "https://play-lh.googleusercontent.com/A0wOjGETOFCD_UNoihkOAtEwuxkhlVdhucJuAau8RPody6FTAsVd-aZqDBxa2cSjERDXf1fc3gang8CT77RO_Q",
+    "genres": [
+      "Social"
+    ],
+    "rating": 3.6,
+    "reviews": 1094,
+    "installs": 2641745,
+    "type": "Free",
+    "price": 0,
+    "developer": "Mastodon",
+    "contentRating": "Mature 17+",
+    "lastUpdated": "2026-06-20",
+    "category": "Social",
+    "features": {
+      "stories": false,
+      "directMessaging": true,
+      "liveStreaming": false,
+      "groupChats": false
+    }
   },
   {
     "id": "com.netflix.mediaclient",
     "name": "Netflix",
     "slug": "netflix",
     "icon": "https://play-lh.googleusercontent.com/fXVS45nukV1x9PYVSKHkCQK0QGCOishIvAOxIZS3sgRem8HS7l9l94_Ggj-WZPrTLePRdNYN4pp4SPAQL7oS0PU",
-    "category": "Entertainment",
     "genres": [
-      "ENTERTAINMENT"
+      "Entertainment"
     ],
-    "rating": 3.8722415,
-    "reviews": 15184610,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
+    "rating": 3.9,
+    "reviews": 909887,
+    "installs": 3516913830,
     "type": "Free",
     "price": 0,
     "developer": "Netflix, Inc.",
     "contentRating": "Teen",
-    "lastUpdated": "2026-07-07"
-  },
-  {
-    "id": "com.spotify.music",
-    "name": "Spotify: Music and Podcasts",
-    "slug": "spotify-music-and-podcasts",
-    "icon": "https://play-lh.googleusercontent.com/IzQgYCcnCFCD08GR-3bdtcT8xzOvrNkC84avGT5CwTX2VIqmTmKKJcP_Cd4JoBOdmCMlTndlOzV6hrthg2fOWA",
-    "category": "Music & Audio",
-    "genres": [
-      "MUSIC_AND_AUDIO"
-    ],
-    "rating": 4.337397,
-    "reviews": 35912350,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Spotify AB",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-07",
+    "category": "Entertainment",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": true
+    }
   },
   {
     "id": "com.google.android.youtube",
     "name": "YouTube",
     "slug": "youtube",
     "icon": "https://play-lh.googleusercontent.com/QNmuZQc9I6Zbe3mWnSr0hycnENqGFCI5p3yE29Hkxtf22T0IWS6zTrpxULLyyjWpB7ONAXDsDQXnXcVWokl3eg",
-    "category": "Video Players & Editors",
     "genres": [
-      "VIDEO_PLAYERS"
+      "Video Players & Editors"
     ],
-    "rating": 3.8595428,
-    "reviews": 170964005,
-    "installs": 10000000000,
-    "installsText": "10,000,000,000+",
+    "rating": 3.9,
+    "reviews": 2980370,
+    "installs": 23012427292,
     "type": "Free",
     "price": 0,
     "developer": "Google LLC",
     "contentRating": "Teen",
-    "lastUpdated": "2026-06-28"
-  },
-  {
-    "id": "com.google.android.apps.youtube.music",
-    "name": "YouTube Music",
-    "slug": "youtube-music",
-    "icon": "https://play-lh.googleusercontent.com/MyptZXmcCyF59phIWPsNCfHq6zSO_ojEdw_4rMYYWPOGdikSjqeOXcoszBZ053VYpINe5K7ZR9KV1nkFWgxdOw",
-    "category": "Music & Audio",
-    "genres": [
-      "MUSIC_AND_AUDIO"
-    ],
-    "rating": 4.5132904,
-    "reviews": 7695527,
-    "installs": 5000000000,
-    "installsText": "5,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Google LLC",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-11",
+    "category": "Entertainment",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": true
+    }
   },
   {
     "id": "com.disney.disneyplus",
     "name": "Disney+",
     "slug": "disney",
     "icon": "https://play-lh.googleusercontent.com/AEX_3Bk5_SEZfR4fUcJsWiyqW_RRVcLED9AM2HMUVHAPVTZhZHfP2q3M35mRe4LtCXlb712DtkKwkZa_nJ-0",
-    "category": "Entertainment",
     "genres": [
-      "ENTERTAINMENT"
+      "Entertainment"
     ],
-    "rating": 4.3217297,
-    "reviews": 5095576,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
+    "rating": 4.3,
+    "reviews": 190327,
+    "installs": 575611466,
     "type": "Free",
     "price": 0,
     "developer": "Disney",
     "contentRating": "Teen",
-    "lastUpdated": "2026-07-03"
+    "lastUpdated": "2026-07-03",
+    "category": "Entertainment",
+    "features": {
+      "offlineDownload": true,
+      "ads": false,
+      "premiumContent": true
+    }
   },
   {
     "id": "com.amazon.avod.thirdpartyclient",
     "name": "Prime Video",
     "slug": "prime-video",
     "icon": "https://play-lh.googleusercontent.com/NnoDzfxkvlsAvU8jzoPeK8aaxbcU2sEH_btwgMQ2xI88_qtrNGQuf1vlFkxSiQODyKVFZ3-s71sU1MHyV-vc9Q",
-    "category": "Entertainment",
     "genres": [
-      "ENTERTAINMENT"
+      "Entertainment"
     ],
-    "rating": 4.631175,
-    "reviews": 5422737,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
+    "rating": 4.6,
+    "reviews": 221209,
+    "installs": 901306335,
     "type": "Free",
     "price": 0,
     "developer": "Amazon Mobile LLC",
     "contentRating": "Teen",
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-10",
+    "category": "Entertainment",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": true
+    }
   },
   {
     "id": "com.hulu.plus",
     "name": "Hulu: Stream TV shows & movies",
     "slug": "hulu-stream-tv-shows-movies",
     "icon": "https://play-lh.googleusercontent.com/Nvn3JLQ-9URuX94b1TtJyloIili61q_mQTxoCvMMs7xIhfQKRX1UyS7KyjDtlkmgOZa2uUA74671jVm0O8UWOvg",
-    "category": "Entertainment",
     "genres": [
-      "ENTERTAINMENT"
+      "Entertainment"
     ],
-    "rating": 4.460441,
-    "reviews": 1583604,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
+    "rating": 4.5,
+    "reviews": 229769,
+    "installs": 108475565,
     "type": "Free",
     "price": 0,
     "developer": "Disney",
     "contentRating": "Teen",
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-07-07",
+    "category": "Entertainment",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": true
+    }
+  },
+  {
+    "id": "in.startv.hotstar",
+    "name": "JioHotstar",
+    "slug": "jiohotstar",
+    "icon": "https://play-lh.googleusercontent.com/02xiO0ptbXjD8NR3sbS2StP1P9aytDN56dDR15zqM_i66Vwq5W_hD-98CoFxvRVoUS4uV_xMSv-iQh3nQFeDeQ",
+    "genres": [
+      "Entertainment"
+    ],
+    "rating": 4.2,
+    "reviews": 4217,
+    "installs": 1154490309,
+    "type": "Free",
+    "price": 0,
+    "developer": "JIOSTAR INDIA PRIVATE LIMITED",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-06-29",
+    "category": "Entertainment",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": true
+    }
+  },
+  {
+    "id": "com.peacocktv.peacockandroid",
+    "name": "Peacock TV: Stream TV & Movies",
+    "slug": "peacock-tv-stream-tv-movies",
+    "icon": "https://play-lh.googleusercontent.com/FdlQY6tEE0p3FsJT9EbxB0BzKdXB1U84nNzAUl_YCC9HxRO1J82i8-XWuN_BD1zReblXht3-cvUreuogHrPk-A",
+    "genres": [
+      "Entertainment"
+    ],
+    "rating": 4.5,
+    "reviews": 81451,
+    "installs": 61221541,
+    "type": "Free",
+    "price": 0,
+    "developer": "Peacock TV LLC",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-06-24",
+    "category": "Entertainment",
+    "features": {
+      "offlineDownload": false,
+      "ads": true,
+      "premiumContent": true
+    }
+  },
+  {
+    "id": "com.crunchyroll.crunchyroid",
+    "name": "Crunchyroll: Anime Streaming",
+    "slug": "crunchyroll-anime-streaming",
+    "icon": "https://play-lh.googleusercontent.com/FUEOotGzxEZqItvGGov0YBiOhZBCACxCM6kF37OtpWrCG9H6EyxSeY2G8PDXQGueLxlxtL3Xr0fbkvXaQ67NLg",
+    "genres": [
+      "Entertainment"
+    ],
+    "rating": 4.6,
+    "reviews": 144339,
+    "installs": 239020478,
+    "type": "Free",
+    "price": 0,
+    "developer": "Crunchyroll, LLC",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-09",
+    "category": "Entertainment",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": true
+    }
   },
   {
     "id": "tv.twitch.android.app",
     "name": "Twitch: Live Streaming",
     "slug": "twitch-live-streaming",
     "icon": "https://play-lh.googleusercontent.com/JHCM4AIyomRp6Lo2-5ugoznlGdsZmNnejVN8DLvtWFHShcz8YRgUE170f1CyOfrleYbtFL2g8tQ3VqlQNAgqoA",
-    "category": "Entertainment",
     "genres": [
-      "ENTERTAINMENT"
+      "Entertainment"
     ],
-    "rating": 4.0272727,
-    "reviews": 5737664,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
+    "rating": 4,
+    "reviews": 245583,
+    "installs": 358245163,
     "type": "Free",
     "price": 0,
     "developer": "Twitch Interactive, Inc.",
     "contentRating": "Teen",
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-10",
+    "category": "Entertainment",
+    "features": {
+      "offlineDownload": false,
+      "ads": true,
+      "premiumContent": true
+    }
   },
   {
-    "id": "com.mxtech.videoplayer.ad",
-    "name": "MX Player",
-    "slug": "mx-player",
-    "icon": "https://play-lh.googleusercontent.com/kuU8L2zHfkE8rDQ8iUwMpYcV8TzUDBz7n_KYaEV4R5M7W5qHiZGqxWk9f1ysP2Lk72GmRTps3iaXUXfH-18pWw",
-    "category": "Video Players & Editors",
+    "id": "com.spotify.music",
+    "name": "Spotify: Music and Podcasts",
+    "slug": "spotify-music-and-podcasts",
+    "icon": "https://play-lh.googleusercontent.com/IzQgYCcnCFCD08GR-3bdtcT8xzOvrNkC84avGT5CwTX2VIqmTmKKJcP_Cd4JoBOdmCMlTndlOzV6hrthg2fOWA",
     "genres": [
-      "VIDEO_PLAYERS"
+      "Music & Audio"
     ],
-    "rating": 4.2070165,
-    "reviews": 14109454,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
+    "rating": 4.3,
+    "reviews": 1843481,
+    "installs": 3048965781,
     "type": "Free",
     "price": 0,
-    "developer": "Amazon Mobile LLC",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-10"
-  },
-  {
-    "id": "com.amazon.mShop.android.shopping",
-    "name": "Amazon Shopping",
-    "slug": "amazon-shopping",
-    "icon": "https://play-lh.googleusercontent.com/UIYZ9hTFNg-zZUg_uzLS9YdyDpvoo1VHNFb6VlzHy5JqNMq9Uq-p2S1VPwzXCipHTFacfGKhJkyAuKL19VVlcWA",
-    "category": "Shopping",
-    "genres": [
-      "SHOPPING"
-    ],
-    "rating": 4.4182205,
-    "reviews": 4613512,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Amazon Mobile LLC",
+    "developer": "Spotify AB",
     "contentRating": "Teen",
-    "lastUpdated": "2026-06-16"
+    "lastUpdated": "2026-07-08",
+    "category": "Music",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": true
+    }
   },
   {
-    "id": "deezer.android.app",
-    "name": "Deezer: Music & Podcast Player",
-    "slug": "deezer-music-podcast-player",
-    "icon": "https://play-lh.googleusercontent.com/RFBXn4V0H8Zmi3_jViu73GTpQOmGmrvG7mdM1ynStAAYEd2aOLo5G0v9AHSUMwia1lQGI-c5oXMzZJCq0RMlJA",
-    "category": "Music & Audio",
+    "id": "com.google.android.apps.youtube.music",
+    "name": "YouTube Music",
+    "slug": "youtube-music",
+    "icon": "https://play-lh.googleusercontent.com/MyptZXmcCyF59phIWPsNCfHq6zSO_ojEdw_4rMYYWPOGdikSjqeOXcoszBZ053VYpINe5K7ZR9KV1nkFWgxdOw",
     "genres": [
-      "MUSIC_AND_AUDIO"
+      "Music & Audio"
     ],
-    "rating": 4.265065,
-    "reviews": 3606676,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
+    "rating": 4.5,
+    "reviews": 489931,
+    "installs": 7683381482,
     "type": "Free",
     "price": 0,
-    "developer": "Deezer Music",
+    "developer": "Google LLC",
     "contentRating": "Teen",
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-08",
+    "category": "Music",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": true
+    }
   },
   {
     "id": "com.soundcloud.android",
     "name": "SoundCloud: The Music You Love",
     "slug": "soundcloud-the-music-you-love",
     "icon": "https://play-lh.googleusercontent.com/rfmCNUApzYntPTdAVmor5vpaOGxIUJWNlpED2pwKcDuCTUaf_2vJlOALNzX1PiejSgZIuAT8k0F5xIBU58JG3g",
-    "category": "Music & Audio",
     "genres": [
-      "MUSIC_AND_AUDIO"
+      "Music & Audio"
     ],
-    "rating": 4.669867,
-    "reviews": 7582282,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
+    "rating": 4.7,
+    "reviews": 385972,
+    "installs": 457637721,
     "type": "Free",
     "price": 0,
     "developer": "SoundCloud",
     "contentRating": "Teen",
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-08",
+    "category": "Music",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": true
+    }
   },
   {
-    "id": "com.apple.android.music",
-    "name": "Apple Music",
-    "slug": "apple-music",
-    "icon": "https://play-lh.googleusercontent.com/MGyoUqkEdhfozD6bo8otUvCEsD4RlGorPXOqKGdap99JX1McBjHgI70iGai-W-_YenuJ8gdIGJQQmUt2wP7ung",
-    "category": "Music & Audio",
+    "id": "com.amazon.mp3",
+    "name": "Amazon Music: Songs & Podcasts",
+    "slug": "amazon-music-songs-podcasts",
+    "icon": "https://play-lh.googleusercontent.com/9v2z1-7g8pWbxek8IW3Q9gGsAqD-YkTvy_rmyd4Cfb-OkpVR2T6jt-Ev2eKDcvx72njhCQ_4fEd9qg8-T9AaDA",
     "genres": [
-      "MUSIC_AND_AUDIO"
+      "Music & Audio"
     ],
-    "rating": 4.6073923,
-    "reviews": 737862,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
+    "rating": 3.9,
+    "reviews": 496161,
+    "installs": 383552946,
     "type": "Free",
     "price": 0,
-    "developer": "Apple",
+    "developer": "Amazon Mobile LLC",
     "contentRating": "Teen",
-    "lastUpdated": "2026-04-13"
+    "lastUpdated": "2026-07-07",
+    "category": "Music",
+    "features": {
+      "offlineDownload": true,
+      "ads": false,
+      "premiumContent": true
+    }
+  },
+  {
+    "id": "com.gaana",
+    "name": "Gaana: Music App, MP3 Songs",
+    "slug": "gaana-music-app-mp3-songs",
+    "icon": "https://play-lh.googleusercontent.com/Bq007X0n-nx6Wbowl_0bpG16rhPhcF-TLeQTXPO5HPC7z78LNRmsvdr1yNKLwBDoMCK1paI8ty2Zv3M1_w3Q3Q",
+    "genres": [
+      "Music & Audio"
+    ],
+    "rating": 4.2,
+    "reviews": 22654,
+    "installs": 395013842,
+    "type": "Free",
+    "price": 0,
+    "developer": "Entertainment Network (India) Ltd.",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-06-29",
+    "category": "Music",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": true
+    }
+  },
+  {
+    "id": "com.jio.media.jiobeats",
+    "name": "JioSaavn - Music & Podcasts",
+    "slug": "jiosaavn-music-podcasts",
+    "icon": "https://play-lh.googleusercontent.com/tJwz_QkxqQN1yFfb8ItXc2hpfzzSfxA-sdqaPGv51ldOFDXCMSmG0coD0uCzKo5y28rJLzyiIY7tmCHiuOOtdKM",
+    "genres": [
+      "Music & Audio"
+    ],
+    "rating": 4.3,
+    "reviews": 2027,
+    "installs": 540949983,
+    "type": "Free",
+    "price": 0,
+    "developer": "Saavn Media Limited",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-07",
+    "category": "Music",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": true
+    }
   },
   {
     "id": "com.pandora.android",
     "name": "Pandora - Music & Podcasts",
     "slug": "pandora-music-podcasts",
     "icon": "https://play-lh.googleusercontent.com/XgDrpaSgIZyml9rjxwY2ZIkVQvhqrSh7FCkD2FDYUJgUWZt33gbVaeqMZLl8UhJGkmObLwivCMPAPY-jlpcp_PQ",
-    "category": "Music & Audio",
     "genres": [
-      "MUSIC_AND_AUDIO"
+      "Music & Audio"
     ],
-    "rating": 3.8886395,
-    "reviews": 3321653,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
+    "rating": 3.9,
+    "reviews": 856497,
+    "installs": 311609817,
     "type": "Free",
     "price": 0,
     "developer": "Pandora",
     "contentRating": "Teen",
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-06-26",
+    "category": "Music",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": true
+    }
   },
   {
-    "id": "com.adobe.lrmobile",
-    "name": "Lightroom Photo & Video Editor",
-    "slug": "lightroom-photo-video-editor",
-    "icon": "https://play-lh.googleusercontent.com/ALv_YzwUQTXc17qvu2oy7JTl8Qn-zm22M4FoZKVv2Ru541nDa2EltKPSlv_KyQGacLdpHLotR9Z98bamyEd9rKc",
-    "category": "Photography",
+    "id": "deezer.android.app",
+    "name": "Deezer: Music & Podcast Player",
+    "slug": "deezer-music-podcast-player",
+    "icon": "https://play-lh.googleusercontent.com/RFBXn4V0H8Zmi3_jViu73GTpQOmGmrvG7mdM1ynStAAYEd2aOLo5G0v9AHSUMwia1lQGI-c5oXMzZJCq0RMlJA",
     "genres": [
-      "PHOTOGRAPHY"
+      "Music & Audio"
     ],
-    "rating": 4.50611,
-    "reviews": 3608160,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
+    "rating": 4.3,
+    "reviews": 51236,
+    "installs": 375521119,
     "type": "Free",
     "price": 0,
-    "developer": "Adobe",
+    "developer": "Deezer Music",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-06",
+    "category": "Music",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": true
+    }
+  },
+  {
+    "id": "com.bsbportal.music",
+    "name": "Wynk Music: Hellotunes",
+    "slug": "wynk-music-hellotunes",
+    "icon": "https://play-lh.googleusercontent.com/pi37Y9te21qsqYtrK6P0E9MhJoZsYtm8wYXN5cqCb70SbXLbYIMcB9V6M7t869OkRfUe9o3cd-QoVyEoQwVaB7g",
+    "genres": [
+      "Music & Audio"
+    ],
+    "rating": 4.2,
+    "reviews": 7699,
+    "installs": 460855556,
+    "type": "Free",
+    "price": 0,
+    "developer": "Airtel",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-01-12",
+    "category": "Music",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": true
+    }
+  },
+  {
+    "id": "com.mxtech.videoplayer.ad",
+    "name": "MX Player",
+    "slug": "mx-player",
+    "icon": "https://play-lh.googleusercontent.com/kuU8L2zHfkE8rDQ8iUwMpYcV8TzUDBz7n_KYaEV4R5M7W5qHiZGqxWk9f1ysP2Lk72GmRTps3iaXUXfH-18pWw",
+    "genres": [
+      "Video Players & Editors"
+    ],
+    "rating": 4.2,
+    "reviews": 163913,
+    "installs": 1598808387,
+    "type": "Free",
+    "price": 0,
+    "developer": "Amazon Mobile LLC",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-10",
+    "category": "Music",
+    "features": {
+      "offlineDownload": true,
+      "ads": true,
+      "premiumContent": false
+    }
   },
   {
-    "id": "com.canva.editor",
-    "name": "Canva: AI Photo & Video Editor",
-    "slug": "canva-ai-photo-video-editor",
-    "icon": "https://play-lh.googleusercontent.com/52fzAlhKzDyZV8ttyQ_DHB-jOeLZAZEdKlgXnWL__YNMZuvsoRCshJX5mr_ArFZjK7rte4hqEJ4ucjtuKJK5",
-    "category": "Art & Design",
+    "id": "com.activision.callofduty.shooter",
+    "name": "Call of Duty®: Mobile",
+    "slug": "call-of-duty-mobile",
+    "icon": "https://play-lh.googleusercontent.com/4KLtYEExeMc9gcYZz1BgAiV87IZ8onX3aGld_lJ8xMydt1MP7m--a6dn0aGNMemq-IiwGrrhqt81TA-Qbve8",
     "genres": [
-      "ART_AND_DESIGN"
+      "Action"
     ],
-    "rating": 4.7711253,
-    "reviews": 26071289,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
+    "rating": 4.3,
+    "reviews": 810245,
+    "installs": 416703848,
     "type": "Free",
     "price": 0,
-    "developer": "Canva",
+    "developer": "Activision Publishing, Inc.",
+    "contentRating": "Mature 17+",
+    "lastUpdated": "2026-06-23",
+    "category": "Games",
+    "features": {
+      "multiplayer": true,
+      "offline": false,
+      "controller": true,
+      "inAppPurchases": true
+    }
+  },
+  {
+    "id": "com.supercell.clashofclans",
+    "name": "Clash of Clans",
+    "slug": "clash-of-clans",
+    "icon": "https://play-lh.googleusercontent.com/gX_sXesdzLc9C4tancLSiJKZom_gLi7Uc5cMfaC-zaY0gvFbXV_DTRZFNqlVx6USMWkqglYgr-k0NeaUq5zE",
+    "genres": [
+      "Strategy"
+    ],
+    "rating": 4.5,
+    "reviews": 1972141,
+    "installs": 873642410,
+    "type": "Free",
+    "price": 0,
+    "developer": "Supercell",
     "contentRating": "Everyone 10+",
-    "lastUpdated": "2026-07-07"
+    "lastUpdated": "2026-06-30",
+    "category": "Games",
+    "features": {
+      "multiplayer": true,
+      "offline": false,
+      "controller": false,
+      "inAppPurchases": true
+    }
   },
   {
-    "id": "com.picsart.studio",
-    "name": "Picsart AI Photo Editor, Video",
-    "slug": "picsart-ai-photo-editor-video",
-    "icon": "https://play-lh.googleusercontent.com/wXk_X0uT6AeWv5TFfheHP8NrOmtz17BX-2uEZ7H4naTIzuFpSIfohvQTA4pKOCF71TmeUF3DfMAGq1SlK2hH7Qk",
-    "category": "Photography",
+    "id": "com.king.candycrushsaga",
+    "name": "Candy Crush Saga",
+    "slug": "candy-crush-saga",
+    "icon": "https://play-lh.googleusercontent.com/JvMhIxuwArVmcMReJQB8PIEB1MIQNMGf9j5i914JtkBrHrA55K-nMUIVlYCa7SXAdHtzLtsycEo6NpXeHFxLwvI",
     "genres": [
-      "PHOTOGRAPHY"
+      "Casual"
     ],
-    "rating": 4.005127,
-    "reviews": 12167057,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
+    "rating": 4.6,
+    "reviews": 2091821,
+    "installs": 2280556993,
     "type": "Free",
     "price": 0,
-    "developer": "PicsArt, Inc.",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-10"
-  },
-  {
-    "id": "com.vsco.cam",
-    "name": "VSCO: Photo Editor",
-    "slug": "vsco-photo-editor",
-    "icon": "https://play-lh.googleusercontent.com/vnhuONWj1eQRuFt0nNYINChFzh2hbUvFnAkrgwAEmU5wXfufbsuWIrjZyVtuw_pYEDhJGPMxuCncZfpQyyvdhg",
-    "category": "Photography",
-    "genres": [
-      "PHOTOGRAPHY"
-    ],
-    "rating": 3.5729642,
-    "reviews": 1326228,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "VSCO",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-06-03"
-  },
-  {
-    "id": "com.adobe.psmobile",
-    "name": "Photoshop Express Photo Editor",
-    "slug": "photoshop-express-photo-editor",
-    "icon": "https://play-lh.googleusercontent.com/rCGZtLm-ksJ87FtI_3YsfYyQMLnv68_YoZsS_Ax0r8UvWrXSg3--vt7WR3iZsN-ImQSgMYz3RKQTCf5_eIiv1g",
-    "category": "Photography",
-    "genres": [
-      "PHOTOGRAPHY"
-    ],
-    "rating": 4.549397,
-    "reviews": 2582217,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Adobe",
+    "developer": "King",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-06-25",
+    "category": "Games",
+    "features": {
+      "multiplayer": false,
+      "offline": true,
+      "controller": false,
+      "inAppPurchases": true
+    }
   },
   {
-    "id": "com.lemon.lvoverseas",
-    "name": "CapCut - Video Editor",
-    "slug": "capcut-video-editor",
-    "icon": "https://play-lh.googleusercontent.com/M78HyakHaxKrjoeqYx41E9DXfVYYtx67nvc7Ks4G4zFQeaAJdGCi8gzzGSrHIwlrmnJS6zD9S4fAXqdEwfuHQAQ",
-    "category": "Video Players & Editors",
+    "id": "com.dts.freefireth",
+    "name": "Free Fire: 9th Anniversary",
+    "slug": "free-fire-9th-anniversary",
+    "icon": "https://play-lh.googleusercontent.com/JT88XmsHoGDio7FxONwh382DhuTxuccfMmWFDtRBFjilySzNqWOCxUhqm8IhBKzQSwVrW2HWp_XvSgKFwi3ETA",
     "genres": [
-      "VIDEO_PLAYERS"
+      "Action"
     ],
-    "rating": 3.5568774,
-    "reviews": 12847619,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
+    "rating": 4.3,
+    "reviews": 653331,
+    "installs": 2113677239,
     "type": "Free",
     "price": 0,
-    "developer": "Bytedance Pte. Ltd.",
+    "developer": "GARENA INTERNATIONAL I",
     "contentRating": "Teen",
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-06-26",
+    "category": "Games",
+    "features": {
+      "multiplayer": true,
+      "offline": false,
+      "controller": true,
+      "inAppPurchases": true
+    }
   },
   {
-    "id": "com.camerasideas.instashot",
-    "name": "Video Editor & Maker - InShot",
-    "slug": "video-editor-maker-inshot",
-    "icon": "https://play-lh.googleusercontent.com/SwG0XbEyZC-fh5codVCcC1c-Vw6G-Ap7BDLPO5LYgeGPaYYBzPFcGgfIllbo-uS63gB2hPbFCFEb-YB4bW5OEg",
-    "category": "Photography",
+    "id": "com.roblox.client",
+    "name": "Roblox",
+    "slug": "roblox",
+    "icon": "https://play-lh.googleusercontent.com/QqZj22aXblAyYDxLQw-Gg0ycW0QkKhrDnwqgERZU9BMRXZnMlgXfq-94sikG5mEpt_I0lzZxcUzfLblmQgwYzUE",
     "genres": [
-      "PHOTOGRAPHY"
+      "Adventure"
     ],
-    "rating": 4.841826,
-    "reviews": 24366964,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
+    "rating": 4.2,
+    "reviews": 3649667,
+    "installs": 1632216066,
     "type": "Free",
     "price": 0,
-    "developer": "InShot Video Editor",
+    "developer": "Roblox Corporation",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-10",
+    "category": "Games",
+    "features": {
+      "multiplayer": true,
+      "offline": false,
+      "controller": true,
+      "inAppPurchases": true
+    }
+  },
+  {
+    "id": "com.tencent.ig",
+    "name": "PUBG MOBILE",
+    "slug": "pubg-mobile",
+    "icon": "https://play-lh.googleusercontent.com/O8jPCZ2EXAt7wGlbZhkhA-3vPIWVBpz8tZrRnsr7uVeqp0UD1AQwIEl_N9So80kdp8gDvIksC64GypylkQV_",
+    "genres": [
+      "Action"
+    ],
+    "rating": 4.3,
+    "reviews": 859867,
+    "installs": 1093227629,
+    "type": "Free",
+    "price": 0,
+    "developer": "Level Infinite",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-01",
+    "category": "Games",
+    "features": {
+      "multiplayer": true,
+      "offline": false,
+      "controller": true,
+      "inAppPurchases": true
+    }
+  },
+  {
+    "id": "com.kiloo.subwaysurf",
+    "name": "Subway Surfers",
+    "slug": "subway-surfers",
+    "icon": "https://play-lh.googleusercontent.com/T7az9M7td7A24vOr7Jp3C9NG16kyWA1NnlUySyl_mbDV9BtlrFbxps5TD5DzT7kCBxpNeTbIIju2_aFN4xtFoYM",
+    "genres": [
+      "Arcade"
+    ],
+    "rating": 4.6,
+    "reviews": 1758988,
+    "installs": 2897334532,
+    "type": "Free",
+    "price": 0,
+    "developer": "SYBO Games",
+    "contentRating": "Everyone 10+",
+    "lastUpdated": "2026-06-28",
+    "category": "Games",
+    "features": {
+      "multiplayer": false,
+      "offline": true,
+      "controller": false,
+      "inAppPurchases": true
+    }
+  },
+  {
+    "id": "com.innersloth.spacemafia",
+    "name": "Among Us",
+    "slug": "among-us",
+    "icon": "https://play-lh.googleusercontent.com/pfGArJJx-vtMRVu2-ziedzAhTLsHgks6N3mNyyOC0oxRdsXINGwdd9h4ZutdTG7MfgiqlDXBXnk-kNo-Fns70Q",
+    "genres": [
+      "Action"
+    ],
+    "rating": 3.9,
+    "reviews": 528716,
+    "installs": 783429394,
+    "type": "Free",
+    "price": 0,
+    "developer": "Innersloth LLC",
+    "contentRating": "Everyone 10+",
+    "lastUpdated": "2026-05-20",
+    "category": "Games",
+    "features": {
+      "multiplayer": true,
+      "offline": false,
+      "controller": false,
+      "inAppPurchases": true
+    }
+  },
+  {
+    "id": "com.supercell.clashroyale",
+    "name": "Clash Royale",
+    "slug": "clash-royale",
+    "icon": "https://play-lh.googleusercontent.com/z0rspJKftanEI7MA4WOdypbaaHfeKy4UjoawRGKf4Ys3v6LrrcleZWOfms7XK-J33Oqyfm3DlFd4Z_eKWafVFg",
+    "genres": [
+      "Strategy"
+    ],
+    "rating": 4.5,
+    "reviews": 970646,
+    "installs": 627714666,
+    "type": "Free",
+    "price": 0,
+    "developer": "Supercell",
+    "contentRating": "Everyone 10+",
+    "lastUpdated": "2026-06-30",
+    "category": "Games",
+    "features": {
+      "multiplayer": true,
+      "offline": false,
+      "controller": false,
+      "inAppPurchases": true
+    }
+  },
+  {
+    "id": "com.mojang.minecraftpe",
+    "name": "Minecraft: Dream it, Build it!",
+    "slug": "minecraft-dream-it-build-it",
+    "icon": "https://play-lh.googleusercontent.com/tI4StRSPVhpGJH5R013naszLUawOjao1ya8FvyaNO7XY_cJFHFqo1EFaEJv_7zz3rRJ5lEpLiw14ZqQLCOYc",
+    "genres": [
+      "Arcade"
+    ],
+    "rating": 4.3,
+    "reviews": 633599,
+    "installs": 91963707,
+    "type": "Paid",
+    "price": 6.99,
+    "developer": "Mojang",
+    "contentRating": "Everyone 10+",
+    "lastUpdated": "2026-07-09",
+    "category": "Games",
+    "features": {
+      "multiplayer": true,
+      "offline": true,
+      "controller": true,
+      "inAppPurchases": true
+    }
+  },
+  {
+    "id": "com.Slack",
+    "name": "Slack",
+    "slug": "slack",
+    "icon": "https://play-lh.googleusercontent.com/C9w-zv2PzpS-Rr9L8PUveRfv36lfYiB2kPKiEy45ucveIYMCoUW1nKQls5VxXSJyUsNxC_s7nFqpIAbqlLbSKA",
+    "genres": [
+      "Business"
+    ],
+    "rating": 4.6,
+    "reviews": 7672,
+    "installs": 49553422,
+    "type": "Free",
+    "price": 0,
+    "developer": "SLACK TECHNOLOGIES L.L.C.",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-07-06",
+    "category": "Business",
+    "features": {
+      "offlineMode": false,
+      "cloudSync": true,
+      "collaboration": true
+    }
   },
   {
-    "id": "com.google.android.apps.photos",
-    "name": "Google Photos",
-    "slug": "google-photos",
-    "icon": "https://play-lh.googleusercontent.com/kErBTF4VcGwhtKbCr80Bs2R1lNZiYkHbKcf1i3ZF6dg_5LqDAlCI4wU-nzwvo7PAbxeBXM_tv1hc11gr4aIIW-Q",
-    "category": "Photography",
+    "id": "com.microsoft.teams",
+    "name": "Microsoft Teams",
+    "slug": "microsoft-teams",
+    "icon": "https://play-lh.googleusercontent.com/6Dj5fuRhw6aGAeuwW8tQ0UyJOpv14MKtsM0YDx65WOg_zqhxE65wt9XBw9VOzuIMZ-S1hLI9BnnNbaeRkrEf2A",
     "genres": [
-      "PHOTOGRAPHY"
+      "Business"
     ],
-    "rating": 4.4013505,
-    "reviews": 53804053,
-    "installs": 10000000000,
-    "installsText": "10,000,000,000+",
+    "rating": 4.6,
+    "reviews": 96331,
+    "installs": 621441802,
     "type": "Free",
     "price": 0,
-    "developer": "Google LLC",
+    "developer": "Microsoft Corporation",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-08"
+    "lastUpdated": "2026-07-08",
+    "category": "Business",
+    "features": {
+      "offlineMode": false,
+      "cloudSync": true,
+      "collaboration": true
+    }
   },
   {
-    "id": "com.ebay.mobile",
-    "name": "eBay online shopping & selling",
-    "slug": "ebay-online-shopping-selling",
-    "icon": "https://play-lh.googleusercontent.com/q0_ZVJFuUH3WFZuZrP8JUMC54dwz1q_SZZufBDMqYaE8O2sLPulV1_dF3xGMQ6b102MTBZlluAF8z4AgZ-Isow",
-    "category": "Shopping",
+    "id": "com.asana.app",
+    "name": "Asana: Work Management",
+    "slug": "asana-work-management",
+    "icon": "https://play-lh.googleusercontent.com/4qKQZB7bi5nJjI9rBkw31NxdAfnRHERd-qNfOlXlI4W2nQR7jIu5APPa7GnSqZTx3B5FqhfzwpVcwlIDt4VdFQ",
     "genres": [
-      "SHOPPING"
+      "Business"
     ],
-    "rating": 4.56112,
-    "reviews": 5010812,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
+    "rating": 3.9,
+    "reviews": 3103,
+    "installs": 8193835,
     "type": "Free",
     "price": 0,
-    "developer": "eBay Mobile",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "id": "com.walmart.android",
-    "name": "Walmart: Shopping & Savings",
-    "slug": "walmart-shopping-savings",
-    "icon": "https://play-lh.googleusercontent.com/uWXZHyYx_7M_aOFK_qINeboJGvmNgXSNRpCzjKyIWyHYcJbgZ0Ky0KlQBy5i1bmkphZdZ-lo9zc2De-KbQBKKA",
-    "category": "Shopping",
-    "genres": [
-      "SHOPPING"
-    ],
-    "rating": 4.716279,
-    "reviews": 7211563,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Walmart",
+    "developer": "Asana, Inc.",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-09",
+    "category": "Business",
+    "features": {
+      "offlineMode": false,
+      "cloudSync": true,
+      "collaboration": true
+    }
   },
   {
-    "id": "com.contextlogic.wish",
-    "name": "Wish: Shop and Save",
-    "slug": "wish-shop-and-save",
-    "icon": "https://play-lh.googleusercontent.com/IQKc-fF8iDPysSuc9EssDW84qXGsLsO3W4aTCmBnavjAFJqo2z6KXe9_xZOoMm5Q6JnoNKmW49ZgszrtLtgR",
-    "category": "Shopping",
+    "id": "com.salesforce.chatter",
+    "name": "Salesforce",
+    "slug": "salesforce",
+    "icon": "https://play-lh.googleusercontent.com/agV7lqgxVGsoWtcdE-ssycn0PjtlNDWDOn7cSMs6wAjA9yrzXNVfSL2KRoW8oeSRY2vbCSxKdW5dxm9J8Bmz",
     "genres": [
-      "SHOPPING"
+      "Business"
     ],
-    "rating": 4.6753464,
-    "reviews": 14379458,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
+    "rating": 3.6,
+    "reviews": 3180,
+    "installs": 7212978,
     "type": "Free",
     "price": 0,
-    "developer": "Wish US Holdings LLC",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "id": "com.etsy.android",
-    "name": "Etsy: Shop Home, Style & More",
-    "slug": "etsy-shop-home-style-more",
-    "icon": "https://play-lh.googleusercontent.com/QjuCfvGNr91o5Do9OyNjBprY12cNi4d-uAm73zlHucElV306V5S2Rl1g02kqsXcDqA9XFYIeOD-LI0rdiJk_",
-    "category": "Shopping",
-    "genres": [
-      "SHOPPING"
-    ],
-    "rating": 4.851316,
-    "reviews": 2144494,
-    "installs": 50000000,
-    "installsText": "50,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Etsy, Inc",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-06"
-  },
-  {
-    "id": "com.target.ui",
-    "name": "Target: Shop. Style. Save.",
-    "slug": "target-shop-style-save",
-    "icon": "https://play-lh.googleusercontent.com/PMEO7Vf0nxncQTi6r9K-Buo9GS0Vc5aCJcyzaJ_p0zR7Tirkjzo_OhnprTD6ccKK-eA5pf_dq4IT598ZzrV__w",
-    "category": "Shopping",
-    "genres": [
-      "SHOPPING"
-    ],
-    "rating": 4.8874674,
-    "reviews": 394991,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Target Corporation",
+    "developer": "Salesforce.com, inc.",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-06-22",
+    "category": "Business",
+    "features": {
+      "offlineMode": false,
+      "cloudSync": true,
+      "collaboration": true
+    }
   },
   {
-    "id": "com.alibaba.aliexpresshd",
-    "name": "AliExpress - Shopping App",
-    "slug": "aliexpress-shopping-app",
-    "icon": "https://play-lh.googleusercontent.com/-26EaFSeFE-GPfgjA98H_ukuK2AEN0ZlMNB9lECGJDxUSG7G20emcnXaHrM5fL2d7mCi3O825iShQvn2J0ZY",
-    "category": "Shopping",
+    "id": "com.zoho.zohoone",
+    "name": "Zoho One Admin",
+    "slug": "zoho-one-admin",
+    "icon": "https://play-lh.googleusercontent.com/MyKzkyuUBipK4632p-UTvIbuT0aIO9vZK52P-69QBMK90iH--MiZIAAfwwiWqOK_BAxIewKDk-pww8oqg-rP",
     "genres": [
-      "SHOPPING"
+      "Business"
     ],
-    "rating": 4.3238745,
-    "reviews": 16293869,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
+    "rating": 3.6,
+    "reviews": 22,
+    "installs": 213884,
     "type": "Free",
     "price": 0,
-    "developer": "Alibaba Mobile",
+    "developer": "Zoho Corporation",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-01",
+    "category": "Business",
+    "features": {
+      "offlineMode": false,
+      "cloudSync": true,
+      "collaboration": true
+    }
+  },
+  {
+    "id": "com.basecamp.bc3",
+    "name": "Basecamp - Project Management",
+    "slug": "basecamp-project-management",
+    "icon": "https://play-lh.googleusercontent.com/y2fVFYOm4QTVbGuUQdbUInFsslbjPPwCjarkjS0t2tw5dQQqKj_o3yyNSwVL7qm7UhutkspkQui4ZoOrDGnysQ",
+    "genres": [
+      "Productivity"
+    ],
+    "rating": 4.7,
+    "reviews": 906,
+    "installs": 1409648,
+    "type": "Free",
+    "price": 0,
+    "developer": "37signals",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-01",
+    "category": "Business",
+    "features": {
+      "offlineMode": false,
+      "cloudSync": true,
+      "collaboration": true
+    }
+  },
+  {
+    "id": "com.cisco.webex.meetings",
+    "name": "Webex Meetings",
+    "slug": "webex-meetings",
+    "icon": "https://play-lh.googleusercontent.com/lmC-rJ1fKyKQHl9eW00guL-_ovNbuUCNvutWKFlVDJGkeEsMRkxHcTZegwD6lnaV53ieA0pXiH2YQjhDwDAcfIE",
+    "genres": [
+      "Business"
+    ],
+    "rating": 4.5,
+    "reviews": 72565,
+    "installs": 123249712,
+    "type": "Free",
+    "price": 0,
+    "developer": "Cisco Systems, Inc.",
+    "contentRating": "Everyone",
+    "lastUpdated": "2025-03-14",
+    "category": "Business",
+    "features": {
+      "offlineMode": false,
+      "cloudSync": true,
+      "collaboration": true
+    }
+  },
+  {
+    "id": "com.docusign.ink",
+    "name": "Docusign - Upload & Sign Docs",
+    "slug": "docusign-upload-sign-docs",
+    "icon": "https://play-lh.googleusercontent.com/psfJ9QxyYw48tD4FeBBVnmVZWNmiF3hg9W5Q5LDa1_CiSnXHixFJXsybyPLxVtz2RCj4Njqln2bFSpXe9u-2",
+    "genres": [
+      "Productivity"
+    ],
+    "rating": 4.7,
+    "reviews": 27810,
+    "installs": 22727794,
+    "type": "Free",
+    "price": 0,
+    "developer": "Docusign",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-06-24",
+    "category": "Business",
+    "features": {
+      "offlineMode": false,
+      "cloudSync": true,
+      "collaboration": false
+    }
+  },
+  {
+    "id": "com.amazon.mShop.android.shopping",
+    "name": "Amazon Shopping",
+    "slug": "amazon-shopping",
+    "icon": "https://play-lh.googleusercontent.com/UIYZ9hTFNg-zZUg_uzLS9YdyDpvoo1VHNFb6VlzHy5JqNMq9Uq-p2S1VPwzXCipHTFacfGKhJkyAuKL19VVlcWA",
+    "genres": [
+      "Shopping"
+    ],
+    "rating": 4.4,
+    "reviews": 348005,
+    "installs": 1085461596,
+    "type": "Free",
+    "price": 0,
+    "developer": "Amazon Mobile LLC",
     "contentRating": "Teen",
-    "lastUpdated": "2026-07-09"
+    "lastUpdated": "2026-06-16",
+    "category": "Shopping",
+    "features": {
+      "cashOnDelivery": true,
+      "wishlist": true,
+      "easyReturns": true,
+      "oneDayDelivery": true
+    }
   },
   {
     "id": "com.flipkart.android",
     "name": "Flipkart Online Shopping App",
     "slug": "flipkart-online-shopping-app",
     "icon": "https://play-lh.googleusercontent.com/mlWjVjxflQoYJHBBgDQ08FqT8i3KnDG__2RH8P-GWOKlEPAIo8TllTZo3HDQ3J5zlO6oAhc1FAv0Bf2on0wL8w",
-    "category": "Shopping",
     "genres": [
-      "SHOPPING"
+      "Shopping"
     ],
-    "rating": 4.4522223,
-    "reviews": 74615230,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
+    "rating": 4.5,
+    "reviews": 40903,
+    "installs": 985636378,
     "type": "Free",
     "price": 0,
     "developer": "Flipkart",
     "contentRating": "Teen",
-    "lastUpdated": "2026-06-30"
-  },
-  {
-    "id": "in.amazon.mShop.android.shopping",
-    "name": "Amazon India Shop, Pay, miniTV",
-    "slug": "amazon-india-shop-pay-minitv",
-    "icon": "https://play-lh.googleusercontent.com/E2Nyw1kSrYFvi5DFOznWOR2iXY9mwxwfYHXV37aLHmuKtEW3gs7StIvVptoV2x8_ykiHQQmliwpfDsFm0Quuwbk",
+    "lastUpdated": "2026-06-30",
     "category": "Shopping",
-    "genres": [
-      "SHOPPING"
-    ],
-    "rating": 4.38374,
-    "reviews": 10402612,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Amazon Mobile LLC",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-06-16"
+    "features": {
+      "cashOnDelivery": true,
+      "wishlist": true,
+      "easyReturns": true,
+      "oneDayDelivery": false
+    }
   },
   {
-    "id": "com.ubercab.eats",
-    "name": "Uber Eats: Food and Grocery",
-    "slug": "uber-eats-food-and-grocery",
-    "icon": "https://play-lh.googleusercontent.com/nQpl8xd3y1dpvHp-VcZrQ7H8ikP5jDYi0tYdS-FzqKyb0qqBb-0FVzuC3eepETxYECADHSitC89yhvWkXxcy",
-    "category": "Food & Drink",
+    "id": "com.ebay.mobile",
+    "name": "eBay online shopping & selling",
+    "slug": "ebay-online-shopping-selling",
+    "icon": "https://play-lh.googleusercontent.com/q0_ZVJFuUH3WFZuZrP8JUMC54dwz1q_SZZufBDMqYaE8O2sLPulV1_dF3xGMQ6b102MTBZlluAF8z4AgZ-Isow",
     "genres": [
-      "FOOD_AND_DRINK"
+      "Shopping"
     ],
-    "rating": 4.633335,
-    "reviews": 7647128,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
+    "rating": 4.6,
+    "reviews": 691468,
+    "installs": 418474265,
     "type": "Free",
     "price": 0,
-    "developer": "Uber Technologies, Inc.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-06"
-  },
-  {
-    "id": "com.dd.doordash",
-    "name": "DoorDash: Food, Grocery, More",
-    "slug": "doordash-food-grocery-more",
-    "icon": "https://play-lh.googleusercontent.com/daqnb5FdirTUewbv81mzwbnhD6_d1ITPYjM-XBFykk3QXRebKeaZLwWjyIbFKzLaEm6c12_wqVEHQhVrX3kO",
-    "category": "Food & Drink",
-    "genres": [
-      "FOOD_AND_DRINK"
-    ],
-    "rating": 4.6572986,
-    "reviews": 6037616,
-    "installs": 50000000,
-    "installsText": "50,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "DoorDash",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-06"
-  },
-  {
-    "id": "com.grubhub.android",
-    "name": "Grubhub: Food Delivery",
-    "slug": "grubhub-food-delivery",
-    "icon": "https://play-lh.googleusercontent.com/yQanUgJ0Hbbbp6RZzoJbM_yG5FE3qLCsoxx75pc4LoRisGT852s3KZI5SLr8UWg32HAkR8ZU4VsWFw3y-FQzZA",
-    "category": "Food & Drink",
-    "genres": [
-      "FOOD_AND_DRINK"
-    ],
-    "rating": 4.5441437,
-    "reviews": 982453,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Grubhub",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-03"
-  },
-  {
-    "id": "com.postmates.android",
-    "name": "Postmates - Food Delivery",
-    "slug": "postmates-food-delivery",
-    "icon": "https://play-lh.googleusercontent.com/Z_dqx_UvcA9ZBDhLb9HP_U6kDJL4LKALRW9enr9vVf-ahq6ja5xO0nXF4cD6s2HLicrr5WaO9tenmbNy7tT9JA",
-    "category": "Food & Drink",
-    "genres": [
-      "FOOD_AND_DRINK"
-    ],
-    "rating": 4.4909234,
-    "reviews": 236576,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Uber Technologies, Inc.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-06"
-  },
-  {
-    "id": "com.ubercab",
-    "name": "Uber - Request a ride",
-    "slug": "uber-request-a-ride",
-    "icon": "https://play-lh.googleusercontent.com/OXQnDlRtPa5ha6KCnKPqVmxHYBP7tjrAa7PXGNRqcwDC_J03HVeuEKcKrkcIqnfOqsF5uy3uwWxIXR067QHsNQ",
-    "category": "Maps & Navigation",
-    "genres": [
-      "MAPS_AND_NAVIGATION"
-    ],
-    "rating": 4.743984,
-    "reviews": 19110630,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Uber Technologies, Inc.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-02"
-  },
-  {
-    "id": "me.lyft.android",
-    "name": "Lyft",
-    "slug": "lyft",
-    "icon": "https://play-lh.googleusercontent.com/37tKpf8CVekD3Ui1KEoCGY-jjBO2dhWfE5qAd0Yc9-faeScc2Uea_OoNgJ_tsJ3hLdET-v1mH_-pMJGv3qXflg",
-    "category": "Maps & Navigation",
-    "genres": [
-      "MAPS_AND_NAVIGATION"
-    ],
-    "rating": 4.924194,
-    "reviews": 648849,
-    "installs": 50000000,
-    "installsText": "50,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Lyft, Inc.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-03"
-  },
-  {
-    "id": "com.airbnb.android",
-    "name": "Airbnb",
-    "slug": "airbnb",
-    "icon": "https://play-lh.googleusercontent.com/PDPmzZUDSmFa33PmzoZ_OWLeIbj23UtGFE9fXVEVjfuyMGvPygT-v9N7bFsJwc8PojCmw72i8Xn45qHElm8b",
-    "category": "Travel & Local",
-    "genres": [
-      "TRAVEL_AND_LOCAL"
-    ],
-    "rating": 4.5522633,
-    "reviews": 1931490,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Airbnb",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "id": "com.booking",
-    "name": "Booking.com: Hotels & Travel",
-    "slug": "booking-com-hotels-travel",
-    "icon": "https://play-lh.googleusercontent.com/ozdbI6WGLCrPRNmc2TqrxgOx_TBIOB7WSeLE5iPkCuBiLyB0tkBo2o3l-VRdD71aKaY-mTwzLQY8zpeo9rOLkwA",
-    "category": "Travel & Local",
-    "genres": [
-      "TRAVEL_AND_LOCAL"
-    ],
-    "rating": 4.7960987,
-    "reviews": 6130004,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Booking.com Hotels & Vacation Rentals",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-10"
-  },
-  {
-    "id": "com.expedia.bookings",
-    "name": "Expedia: Hotels, Flights, Cars",
-    "slug": "expedia-hotels-flights-cars",
-    "icon": "https://play-lh.googleusercontent.com/xR9ID0uk8rgizV7V-GLpmWFEdEkbElLBCDMgauP1Svk_bh1JPpSSlL79X7NuN_tt34EOM1OFpLgA-eeboZUc9A",
-    "category": "Travel & Local",
-    "genres": [
-      "TRAVEL_AND_LOCAL"
-    ],
-    "rating": 4.808438,
-    "reviews": 1609888,
-    "installs": 50000000,
-    "installsText": "50,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Expedia",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-03"
-  },
-  {
-    "id": "com.tripadvisor.tripadvisor",
-    "name": "Tripadvisor: Plan & Book Trips",
-    "slug": "tripadvisor-plan-book-trips",
-    "icon": "https://play-lh.googleusercontent.com/SadHVg8ieqV-KQRjgukQJIVRtDAc9tGLUjOKecJtSLVdUHeENpQgzxgWZ__wSQ9ZWmHbJ2G-aqHRZdT7K8KPoJk",
-    "category": "Travel & Local",
-    "genres": [
-      "TRAVEL_AND_LOCAL"
-    ],
-    "rating": 4.506277,
-    "reviews": 1474010,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Tripadvisor",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-07"
-  },
-  {
-    "id": "com.google.android.apps.maps",
-    "name": "Google Maps",
-    "slug": "google-maps",
-    "icon": "https://play-lh.googleusercontent.com/B8pdO_2K5nBsF0g1h6dKwV_jQFLP-XombGDEQGtJT-mw1EUKCKJpa9lBGCF4rP_MwCsozSXyvI3z19g9R3J4",
-    "category": "Travel & Local",
-    "genres": [
-      "TRAVEL_AND_LOCAL"
-    ],
-    "rating": 3.2504933,
-    "reviews": 19469493,
-    "installs": 10000000000,
-    "installsText": "10,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Google LLC",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-10"
-  },
-  {
-    "id": "com.waze",
-    "name": "Waze Navigation & Live Traffic",
-    "slug": "waze-navigation-live-traffic",
-    "icon": "https://play-lh.googleusercontent.com/d4dltd4baeDGnfJD1H-ut68ERsIynfywij9zHRL7ioB-PJW3ENw-bFgg08KGPo8zQfSyRW36e58xhlqQ0pE1gg",
-    "category": "Maps & Navigation",
-    "genres": [
-      "MAPS_AND_NAVIGATION"
-    ],
-    "rating": 4.2616177,
-    "reviews": 8894950,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Waze",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-05"
-  },
-  {
-    "id": "com.sygic.aura",
-    "name": "Sygic GPS Navigation & Maps",
-    "slug": "sygic-gps-navigation-maps",
-    "icon": "https://play-lh.googleusercontent.com/1hl2BmWW2V1tnYEAmJppZBP4BuQho0m54SakoI7cCRdensUa3yVeEHNyV8vffYqPBiVH5q1UejGqz5GD8gEf3yY",
-    "category": "Maps & Navigation",
-    "genres": [
-      "MAPS_AND_NAVIGATION"
-    ],
-    "rating": 4.185158,
-    "reviews": 1893218,
-    "installs": 50000000,
-    "installsText": "50,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Sygic.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-06-25"
-  },
-  {
-    "id": "com.here.app.maps",
-    "name": "HERE WeGo: Maps & Navigation",
-    "slug": "here-wego-maps-navigation",
-    "icon": "https://play-lh.googleusercontent.com/JEdi3LT71olhTgJ5sHhF203sw-VRz-q9vfnFaNpMfVkYht0AYii16szMznildictQriLTW0_nO45tEMuk6-f",
-    "category": "Maps & Navigation",
-    "genres": [
-      "MAPS_AND_NAVIGATION"
-    ],
-    "rating": 3.30749,
-    "reviews": 501041,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "HERE Europe B.V.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-03"
-  },
-  {
-    "id": "com.android.chrome",
-    "name": "Google Chrome",
-    "slug": "google-chrome",
-    "icon": "https://play-lh.googleusercontent.com/gbkzfC3R1fXcGR4Uag1uRSN_123Tpo_KxhVZFLFCatmthFuO1bzPczUomFtxI42YYEQMJeAaZuIFVrTF58gZYg",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 4.130146,
-    "reviews": 48862670,
-    "installs": 10000000000,
-    "installsText": "10,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Google LLC",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "id": "org.mozilla.firefox",
-    "name": "Firefox Fast & Private Browser",
-    "slug": "firefox-fast-private-browser",
-    "icon": "https://play-lh.googleusercontent.com/jQAmlGUkuJGc4TjZs2OEUeB5Gy3dCpKCWqfgVmab5NvM_43oed2qhVhrlEajccjJV6VkDFCEXws_6t6StKKLTY4",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 4.6042695,
-    "reviews": 6435532,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Mozilla",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-06"
-  },
-  {
-    "id": "com.microsoft.emmx",
-    "name": "Microsoft Edge",
-    "slug": "microsoft-edge",
-    "icon": "https://play-lh.googleusercontent.com/4Z1Nt1I9HUDevt5VJ7BmgpqSTUpsC0Ei1K-IiXSmkH5Dzorz_isDzq4qdpb75RA1SfOV7v6csav-atWBur1wJQM",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 4.671823,
-    "reviews": 1556810,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Microsoft Corporation",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-08"
-  },
-  {
-    "id": "com.opera.browser",
-    "name": "Opera: Private Web Browser",
-    "slug": "opera-private-web-browser",
-    "icon": "https://play-lh.googleusercontent.com/OXMuirawEpDqYwFE5FPutnvLfvCEceARGBtAzjNjiga6wJ1S2YVQAnBHEwL6RedR8PVV7Uy3Q4kZ5-m9LlALaA",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 4.758129,
-    "reviews": 5436928,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Opera",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "id": "com.brave.browser",
-    "name": "Brave Private Web Browser, VPN",
-    "slug": "brave-private-web-browser-vpn",
-    "icon": "https://play-lh.googleusercontent.com/UBrZnuXGb-QACU0uUdF5r_n5nx5oBbdfPyEbtsr0xXv00RN7rpaTVu3GjLeE90aHFmNlbaCmm8vNcmY0eE98U9E",
-    "category": "Communication",
-    "genres": [
-      "COMMUNICATION"
-    ],
-    "rating": 4.7406764,
-    "reviews": 3577794,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Brave Software",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "id": "com.duolingo",
-    "name": "Duolingo: Language Lessons",
-    "slug": "duolingo-language-lessons",
-    "icon": "https://play-lh.googleusercontent.com/Q-wEiKezZQEspFNNrWfKjcEgAqdWy_b98_tXTAZaXGgm9y1HZ1zi-JSZXA7Tmur9MjcM0xoIA0BdXEN0Bt54",
-    "category": "Education",
-    "genres": [
-      "EDUCATION"
-    ],
-    "rating": 4.7275333,
-    "reviews": 47269686,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Duolingo",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-06"
-  },
-  {
-    "id": "org.khanacademy.android",
-    "name": "Khan Academy",
-    "slug": "khan-academy",
-    "icon": "https://play-lh.googleusercontent.com/ZpYO18Se26RWzXzmOGvT7R_5wBknrnznqKqFjXUiMIZDCD_OO1V4Nr8q_bJrU34jR2TaZPNOSzbUrKb8DeZatro",
-    "category": "Education",
-    "genres": [
-      "EDUCATION"
-    ],
-    "rating": 4.1623006,
-    "reviews": 172526,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Khan Academy",
+    "developer": "eBay Mobile",
     "contentRating": "Teen",
-    "lastUpdated": "2026-02-24"
+    "lastUpdated": "2026-07-09",
+    "category": "Shopping",
+    "features": {
+      "cashOnDelivery": false,
+      "wishlist": true,
+      "easyReturns": true,
+      "oneDayDelivery": false
+    }
   },
   {
-    "id": "com.udemy.android",
-    "name": "Udemy - Online Courses",
-    "slug": "udemy-online-courses",
-    "icon": "https://play-lh.googleusercontent.com/b4vY9kDlVRfWsPCi4GEOvCtoQs0vU6lo2RFYc2qixQBVMzYmA9UebE8R4xbnrRMy4jB6NQEBNqd0ZDyg2Wciig",
-    "category": "Education",
+    "id": "com.alibaba.aliexpresshd",
+    "name": "AliExpress - Shopping App",
+    "slug": "aliexpress-shopping-app",
+    "icon": "https://play-lh.googleusercontent.com/-26EaFSeFE-GPfgjA98H_ukuK2AEN0ZlMNB9lECGJDxUSG7G20emcnXaHrM5fL2d7mCi3O825iShQvn2J0ZY",
     "genres": [
-      "EDUCATION"
+      "Shopping"
     ],
-    "rating": 4.392085,
-    "reviews": 509432,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
+    "rating": 4.3,
+    "reviews": 211275,
+    "installs": 868197091,
     "type": "Free",
     "price": 0,
-    "developer": "Udemy",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-08"
+    "developer": "Alibaba Mobile",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-09",
+    "category": "Shopping",
+    "features": {
+      "cashOnDelivery": false,
+      "wishlist": true,
+      "easyReturns": true,
+      "oneDayDelivery": false
+    }
   },
   {
-    "id": "com.google.android.apps.classroom",
-    "name": "Google Classroom",
-    "slug": "google-classroom",
-    "icon": "https://play-lh.googleusercontent.com/PNYNq4kPt-oJMEJb91DUYgsjMl9Ubx5KHP5c1UglZJd8FQWv0xvRL3mZdTvicuhaF0yQm00lV7RN0eAxUbkvQw",
-    "category": "Education",
+    "id": "com.myntra.android",
+    "name": "Myntra - Fashion Shopping App",
+    "slug": "myntra-fashion-shopping-app",
+    "icon": "https://play-lh.googleusercontent.com/G4PzdZ4rHsX_itOqEa603UMdUmCcEgA4uvmuGJ4mSRkA8zJ8UkPGSGYptSK0yM9mmx6WlJCKEASy8WxXE8XBHg",
     "genres": [
-      "EDUCATION"
+      "Shopping"
     ],
-    "rating": 2.8120012,
-    "reviews": 2086510,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
+    "rating": 4.6,
+    "reviews": 7469,
+    "installs": 411059888,
+    "type": "Free",
+    "price": 0,
+    "developer": "Myntra",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-10",
+    "category": "Shopping",
+    "features": {
+      "cashOnDelivery": true,
+      "wishlist": true,
+      "easyReturns": true,
+      "oneDayDelivery": false
+    }
+  },
+  {
+    "id": "com.walmart.android",
+    "name": "Walmart: Shopping & Savings",
+    "slug": "walmart-shopping-savings",
+    "icon": "https://play-lh.googleusercontent.com/uWXZHyYx_7M_aOFK_qINeboJGvmNgXSNRpCzjKyIWyHYcJbgZ0Ky0KlQBy5i1bmkphZdZ-lo9zc2De-KbQBKKA",
+    "genres": [
+      "Shopping"
+    ],
+    "rating": 4.7,
+    "reviews": 565922,
+    "installs": 131633578,
+    "type": "Free",
+    "price": 0,
+    "developer": "Walmart",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-10",
+    "category": "Shopping",
+    "features": {
+      "cashOnDelivery": false,
+      "wishlist": true,
+      "easyReturns": true,
+      "oneDayDelivery": true
+    }
+  },
+  {
+    "id": "com.zzkko",
+    "name": "SHEIN-Shopping Online",
+    "slug": "shein-shopping-online",
+    "icon": "https://play-lh.googleusercontent.com/M_c3ZcQ1dx3AlDSfFEL0S2KgYrmkvJz2gz6gMZaL0pSQS9yYfUOGAQJTfuXMvx0K5c46dh5TKauxuRbUlnxB7w",
+    "genres": [
+      "Shopping"
+    ],
+    "rating": 4.8,
+    "reviews": 228551,
+    "installs": 1000856081,
+    "type": "Free",
+    "price": 0,
+    "developer": "Roadget Business PTE. LTD.",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-08",
+    "category": "Shopping",
+    "features": {
+      "cashOnDelivery": false,
+      "wishlist": true,
+      "easyReturns": true,
+      "oneDayDelivery": false
+    }
+  },
+  {
+    "id": "com.etsy.android",
+    "name": "Etsy: Shop Home, Style & More",
+    "slug": "etsy-shop-home-style-more",
+    "icon": "https://play-lh.googleusercontent.com/QjuCfvGNr91o5Do9OyNjBprY12cNi4d-uAm73zlHucElV306V5S2Rl1g02kqsXcDqA9XFYIeOD-LI0rdiJk_",
+    "genres": [
+      "Shopping"
+    ],
+    "rating": 4.9,
+    "reviews": 107280,
+    "installs": 74611518,
+    "type": "Free",
+    "price": 0,
+    "developer": "Etsy, Inc",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-06",
+    "category": "Shopping",
+    "features": {
+      "cashOnDelivery": false,
+      "wishlist": true,
+      "easyReturns": false,
+      "oneDayDelivery": false
+    }
+  },
+  {
+    "id": "com.meesho.supply",
+    "name": "Meesho: Online Shopping App",
+    "slug": "meesho-online-shopping-app",
+    "icon": "https://play-lh.googleusercontent.com/lQrsRJ7PT25f2J8n14Zp4j0695_2NIpIUEQpG6bEuljhk7oJ8q_GeA5iYgWm1DiDq0WFPBWP4iaJcXi4XPwoWCk",
+    "genres": [
+      "Shopping"
+    ],
+    "rating": 4.3,
+    "reviews": 1886,
+    "installs": 888419248,
+    "type": "Free",
+    "price": 0,
+    "developer": "Meesho",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-10",
+    "category": "Shopping",
+    "features": {
+      "cashOnDelivery": true,
+      "wishlist": true,
+      "easyReturns": true,
+      "oneDayDelivery": false
+    }
+  },
+  {
+    "id": "com.google.android.apps.photos",
+    "name": "Google Photos",
+    "slug": "google-photos",
+    "icon": "https://play-lh.googleusercontent.com/kErBTF4VcGwhtKbCr80Bs2R1lNZiYkHbKcf1i3ZF6dg_5LqDAlCI4wU-nzwvo7PAbxeBXM_tv1hc11gr4aIIW-Q",
+    "genres": [
+      "Photography"
+    ],
+    "rating": 4.4,
+    "reviews": 1340102,
+    "installs": 14227933573,
     "type": "Free",
     "price": 0,
     "developer": "Google LLC",
     "contentRating": "Everyone",
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-07-08",
+    "category": "Photography",
+    "features": {
+      "filters": false,
+      "cloudBackup": true,
+      "editingTools": true,
+      "collage": false
+    }
   },
   {
-    "id": "flipboard.app",
-    "name": "Flipboard:Your Social Magazine",
-    "slug": "flipboard-your-social-magazine",
-    "icon": "https://play-lh.googleusercontent.com/cnk52-UZANw2ffToUeHdtqpRL_Pw1IqzWoP02Fa-kPoJZ1CNzqojYCqlO6CTg4v8i6hpSy5rb2IFiK4ZSAnqNg",
-    "category": "News & Magazines",
+    "id": "com.niksoftware.snapseed",
+    "name": "Snapseed",
+    "slug": "snapseed",
+    "icon": "https://play-lh.googleusercontent.com/w7o-_yhpqhfsGMrrdYYhgAA7LxiX8yAO-CG_6FGEraUDKGGlXDEDNf_RFtr5f7OJxLVa3dRcPf4WRl8k8ez7",
     "genres": [
-      "NEWS_AND_MAGAZINES"
+      "Photography"
     ],
-    "rating": 3.4426646,
-    "reviews": 1411754,
-    "installs": 500000000,
-    "installsText": "500,000,000+",
+    "rating": 3.6,
+    "reviews": 20454,
+    "installs": 441676013,
     "type": "Free",
     "price": 0,
-    "developer": "Flipboard",
+    "developer": "Google LLC",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-08",
+    "category": "Photography",
+    "features": {
+      "filters": true,
+      "cloudBackup": false,
+      "editingTools": true,
+      "collage": false
+    }
+  },
+  {
+    "id": "com.vsco.cam",
+    "name": "VSCO: Photo Editor",
+    "slug": "vsco-photo-editor",
+    "icon": "https://play-lh.googleusercontent.com/vnhuONWj1eQRuFt0nNYINChFzh2hbUvFnAkrgwAEmU5wXfufbsuWIrjZyVtuw_pYEDhJGPMxuCncZfpQyyvdhg",
+    "genres": [
+      "Photography"
+    ],
+    "rating": 3.6,
+    "reviews": 19815,
+    "installs": 163582546,
+    "type": "Free",
+    "price": 0,
+    "developer": "VSCO",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-06-03",
+    "category": "Photography",
+    "features": {
+      "filters": true,
+      "cloudBackup": true,
+      "editingTools": true,
+      "collage": false
+    }
+  },
+  {
+    "id": "com.adobe.lrmobile",
+    "name": "Lightroom Photo & Video Editor",
+    "slug": "lightroom-photo-video-editor",
+    "icon": "https://play-lh.googleusercontent.com/ALv_YzwUQTXc17qvu2oy7JTl8Qn-zm22M4FoZKVv2Ru541nDa2EltKPSlv_KyQGacLdpHLotR9Z98bamyEd9rKc",
+    "genres": [
+      "Photography"
+    ],
+    "rating": 4.5,
+    "reviews": 16731,
+    "installs": 461199807,
+    "type": "Free",
+    "price": 0,
+    "developer": "Adobe",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-06",
+    "category": "Photography",
+    "features": {
+      "filters": true,
+      "cloudBackup": true,
+      "editingTools": true,
+      "collage": false
+    }
+  },
+  {
+    "id": "com.picsart.studio",
+    "name": "Picsart AI Photo Editor, Video",
+    "slug": "picsart-ai-photo-editor-video",
+    "icon": "https://play-lh.googleusercontent.com/wXk_X0uT6AeWv5TFfheHP8NrOmtz17BX-2uEZ7H4naTIzuFpSIfohvQTA4pKOCF71TmeUF3DfMAGq1SlK2hH7Qk",
+    "genres": [
+      "Photography"
+    ],
+    "rating": 4,
+    "reviews": 441784,
+    "installs": 1419138082,
+    "type": "Free",
+    "price": 0,
+    "developer": "PicsArt, Inc.",
+    "contentRating": "Teen",
+    "lastUpdated": "2026-07-10",
+    "category": "Photography",
+    "features": {
+      "filters": true,
+      "cloudBackup": true,
+      "editingTools": true,
+      "collage": true
+    }
+  },
+  {
+    "id": "com.canva.editor",
+    "name": "Canva: AI Photo & Video Editor",
+    "slug": "canva-ai-photo-video-editor",
+    "icon": "https://play-lh.googleusercontent.com/52fzAlhKzDyZV8ttyQ_DHB-jOeLZAZEdKlgXnWL__YNMZuvsoRCshJX5mr_ArFZjK7rte4hqEJ4ucjtuKJK5",
+    "genres": [
+      "Art & Design"
+    ],
+    "rating": 4.8,
+    "reviews": 101617,
+    "installs": 743102367,
+    "type": "Free",
+    "price": 0,
+    "developer": "Canva",
     "contentRating": "Everyone 10+",
-    "lastUpdated": "2026-07-10"
+    "lastUpdated": "2026-07-07",
+    "category": "Photography",
+    "features": {
+      "filters": true,
+      "cloudBackup": true,
+      "editingTools": true,
+      "collage": true
+    }
   },
   {
-    "id": "com.google.android.apps.magazines",
-    "name": "Google News - Daily Headlines",
-    "slug": "google-news-daily-headlines",
-    "icon": "https://play-lh.googleusercontent.com/m2k0X_fhgmj2MjDn_9rStPF9ngsXMO-DsC1ZhG3bcYl7hvJ9rwAOo7cKs9j5wnl-RNuDh-sfCUtF2sYzjcgzIg",
-    "category": "News & Magazines",
+    "id": "com.linecorp.foodcam.android",
+    "name": "Foodie - Filter & Film Camera",
+    "slug": "foodie-filter-film-camera",
+    "icon": "https://play-lh.googleusercontent.com/9HnbE5ejcZYn8RHkDRXFyus_kNesS-JTKoTZtRT0F04AqIHEsIZd2CjAvxaln6OC9ohQY-6DSMp9NKj_Idt4SUw",
     "genres": [
-      "NEWS_AND_MAGAZINES"
+      "Photography"
     ],
-    "rating": 4.0083604,
-    "reviews": 1960042,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
+    "rating": 3.6,
+    "reviews": 399,
+    "installs": 42173465,
     "type": "Free",
     "price": 0,
-    "developer": "Google LLC",
+    "developer": "SNOW Corporation",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-06-25",
+    "category": "Photography",
+    "features": {
+      "filters": true,
+      "cloudBackup": false,
+      "editingTools": false,
+      "collage": false
+    }
+  },
+  {
+    "id": "com.adobe.psmobile",
+    "name": "Photoshop Express Photo Editor",
+    "slug": "photoshop-express-photo-editor",
+    "icon": "https://play-lh.googleusercontent.com/rCGZtLm-ksJ87FtI_3YsfYyQMLnv68_YoZsS_Ax0r8UvWrXSg3--vt7WR3iZsN-ImQSgMYz3RKQTCf5_eIiv1g",
+    "genres": [
+      "Photography"
+    ],
+    "rating": 4.5,
+    "reviews": 58707,
+    "installs": 301072742,
+    "type": "Free",
+    "price": 0,
+    "developer": "Adobe",
+    "contentRating": "Everyone",
+    "lastUpdated": "2026-07-10",
+    "category": "Photography",
+    "features": {
+      "filters": true,
+      "cloudBackup": true,
+      "editingTools": true,
+      "collage": false
+    }
+  },
+  {
+    "id": "com.cyberlink.youperfect",
+    "name": "YouCam Perfect - Photo Editor",
+    "slug": "youcam-perfect-photo-editor",
+    "icon": "https://play-lh.googleusercontent.com/E2jSBvQvzQmJ6o_lTMaWTEFduoW7rcSJCFzAlk1KVegFw9amxTTaTPQkHgAsI6am1gisNv2Rqs9Q1mU2FG6-YQ",
+    "genres": [
+      "Photography"
+    ],
+    "rating": 3.9,
+    "reviews": 39402,
+    "installs": 222291203,
+    "type": "Free",
+    "price": 0,
+    "developer": "Perfect Mobile Corp.",
     "contentRating": "Teen",
-    "lastUpdated": "2026-06-30"
-  },
-  {
-    "id": "bbc.mobile.news.ww",
-    "name": "BBC: World News & Stories",
-    "slug": "bbc-world-news-stories",
-    "icon": "https://play-lh.googleusercontent.com/qwTbVrN94A2L3g4v3YPs4jFx35N4yTJkgcuFVv6EOuLz_XGmvy1_vWdiEem_It99DZjN9FfNEqUiM3V0PIsZMw",
-    "category": "News & Magazines",
-    "genres": [
-      "NEWS_AND_MAGAZINES"
-    ],
-    "rating": 3.2166784,
-    "reviews": 440723,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "BBC Studios Distribution Ltd.",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-06-16"
-  },
-  {
-    "id": "com.cnn.mobile.android.phone",
-    "name": "CNN: Live & Breaking News",
-    "slug": "cnn-live-breaking-news",
-    "icon": "https://play-lh.googleusercontent.com/XuFiFitoqOmkX5J5i2KqaVC_zE3P2LSHSHZPlYgXni7UjiTC7kBXHvGlSntcEIOwUx2Jp74NZ-dbkovE_Y_yqA",
-    "category": "News & Magazines",
-    "genres": [
-      "NEWS_AND_MAGAZINES"
-    ],
-    "rating": 4.298108,
-    "reviews": 587676,
-    "installs": 50000000,
-    "installsText": "50,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "CNN",
-    "contentRating": "Everyone 10+",
-    "lastUpdated": "2026-07-02"
-  },
-  {
-    "id": "com.amazon.kindle",
-    "name": "Amazon Kindle: Reading App",
-    "slug": "amazon-kindle-reading-app",
-    "icon": "https://play-lh.googleusercontent.com/OMOY8Erqgf955efAZgpCJLC9yU8W8WMRgiZSUc4jf653YyV3XwTY2uFQZCY1nz8-8Lb4eZXRCmd4RoWK5q6G2A",
-    "category": "Books & Reference",
-    "genres": [
-      "BOOKS_AND_REFERENCE"
-    ],
-    "rating": 4.7705483,
-    "reviews": 4720643,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Amazon Mobile LLC",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-06-26"
-  },
-  {
-    "id": "com.google.android.apps.books",
-    "name": "Google Play Books & Audiobooks",
-    "slug": "google-play-books-audiobooks",
-    "icon": "https://play-lh.googleusercontent.com/KQKRmi5uic0yjSl7rfXKRyDunmQP1d7kqsswnKM4QPkq8OtQtAYAqb7nKsLyQKq7QXD01s4EVpxfDK7G9gyzZQ",
-    "category": "Books & Reference",
-    "genres": [
-      "BOOKS_AND_REFERENCE"
-    ],
-    "rating": 4.6819453,
-    "reviews": 3168122,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Google LLC",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-06-22"
-  },
-  {
-    "id": "com.audible.application",
-    "name": "Audible: Audiobooks & Podcasts",
-    "slug": "audible-audiobooks-podcasts",
-    "icon": "https://play-lh.googleusercontent.com/KGnBcjYv4pYMj1fMPLOlsTbTSAQ8o0kDqcAMh54u8hYJs0TuowrBAr0URWSW36ffADVOt6D-nOuiG1O0pCkUqQ",
-    "category": "Books & Reference",
-    "genres": [
-      "BOOKS_AND_REFERENCE"
-    ],
-    "rating": 4.585528,
-    "reviews": 1749976,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Audible, Inc.",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-06-29"
-  },
-  {
-    "id": "com.weather.Weather",
-    "name": "The Weather Channel - Radar",
-    "slug": "the-weather-channel-radar",
-    "icon": "https://play-lh.googleusercontent.com/qlnc-xsYVOz_MnB0Xq7x39Wh2XoDJ_IaXNOatWbLQkIUWfp-_KpMQ5nm35TFviE9UIaEjfC0MN1C28iX7SUWQQ",
-    "category": "Weather",
-    "genres": [
-      "WEATHER"
-    ],
-    "rating": 4.5979795,
-    "reviews": 3548103,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "The Weather Channel",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "id": "com.accuweather.android",
-    "name": "AccuWeather: Weather Radar",
-    "slug": "accuweather-weather-radar",
-    "icon": "https://play-lh.googleusercontent.com/wdQXBFb3I1NgNpRzJo9tMHJuV9P069NR5GJ2J7w8eX_SVarWLRarca-6MiemrDbnSqDQflFzvzjSG2smlwe39TQ",
-    "category": "Weather",
-    "genres": [
-      "WEATHER"
-    ],
-    "rating": 3.5280159,
-    "reviews": 2577399,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "AccuWeather",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-06"
-  },
-  {
-    "id": "com.weather.Weather",
-    "name": "The Weather Channel - Radar",
-    "slug": "the-weather-channel-radar",
-    "icon": "https://play-lh.googleusercontent.com/qlnc-xsYVOz_MnB0Xq7x39Wh2XoDJ_IaXNOatWbLQkIUWfp-_KpMQ5nm35TFviE9UIaEjfC0MN1C28iX7SUWQQ",
-    "category": "Weather",
-    "genres": [
-      "WEATHER"
-    ],
-    "rating": 4.5979795,
-    "reviews": 3548049,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "The Weather Channel",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "id": "com.microsoft.skydrive",
-    "name": "Microsoft OneDrive",
-    "slug": "microsoft-onedrive",
-    "icon": "https://play-lh.googleusercontent.com/pkzkr91OWFffdDGZ9706Ev2lxjM1pMizefY__r8JkCAtNVO-hmaMG2Qfx9ngpu7V7K4Yx_E7csAMl6fP7dGNS28",
-    "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 4.598302,
-    "reviews": 7157671,
-    "installs": 5000000000,
-    "installsText": "5,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Microsoft Corporation",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-10"
-  },
-  {
-    "id": "com.teamviewer.teamviewer.market.mobile",
-    "name": "TeamViewer Remote Control",
-    "slug": "teamviewer-remote-control",
-    "icon": "https://play-lh.googleusercontent.com/ziceP9Ih1fJCDJ7Y4vtsVejEsakMD6i2bxexTl_PFxSDs6M46X02QDGzfPlIJlcDZgahzWycdixXxoIvrIaFiA",
-    "category": "Business",
-    "genres": [
-      "BUSINESS"
-    ],
-    "rating": 4.3821707,
-    "reviews": 1060349,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "TeamViewer",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-10"
-  },
-  {
-    "id": "com.cpuid.cpu_z",
-    "name": "CPU-Z",
-    "slug": "cpu-z",
-    "icon": "https://play-lh.googleusercontent.com/ZrHa04Sd63PqJNHlvpCz8K94AKdmqDmCacf6iQ0rBZs4s7JmcevoetuduWsRo3S3SC0DIDh273mwU_P0gSc2cQ",
-    "category": "Tools",
-    "genres": [
-      "TOOLS"
-    ],
-    "rating": 3.1886792,
-    "reviews": 377646,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "CPUID",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-06-27"
-  },
-  {
-    "id": "com.avast.android.mobilesecurity",
-    "name": "Avast One: Antivirus, Security",
-    "slug": "avast-one-antivirus-security",
-    "icon": "https://play-lh.googleusercontent.com/Qa9dOOZG1V2muJuTN3GHrtUYGvegTFt3-Lo2y3wknKiyt4jtlv8_z4qG3c5V3xDlb8WGQJWqJpFWgHQ9lOO-aA",
-    "category": "Tools",
-    "genres": [
-      "TOOLS"
-    ],
-    "rating": 4.6098523,
-    "reviews": 7287198,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Avast Software",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-06-17"
-  },
-  {
-    "id": "com.bitdefender.antivirus",
-    "name": "Bitdefender Antivirus",
-    "slug": "bitdefender-antivirus",
-    "icon": "https://play-lh.googleusercontent.com/J95QiZVIIxujcFommVMOpeGC6X0FxyEkjSZNwFyOVr-7_iBEfr9JyUEVR1a1OXXlO-aBv8z9KIth0NZh76XF",
-    "category": "Tools",
-    "genres": [
-      "TOOLS"
-    ],
-    "rating": 4.729232,
-    "reviews": 309310,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Bitdefender",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-06-29"
-  },
-  {
-    "id": "com.lookout",
-    "name": "F-Secure Mobile Security",
-    "slug": "f-secure-mobile-security",
-    "icon": "https://play-lh.googleusercontent.com/QlFbMydujkmprKfoPuUmcgPt6Urqm5tlVdZIsjSzcHHYNUs5glF_O4xyK3IdNEOy7_hiCQUdH1cOisFWCbcr9KY",
-    "category": "Tools",
-    "genres": [
-      "TOOLS"
-    ],
-    "rating": 4.2063212,
-    "reviews": 1107914,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "F-Secure Corporation",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-03-24"
-  },
-  {
-    "id": "com.openai.chatgpt",
-    "name": "ChatGPT",
-    "slug": "chatgpt",
-    "icon": "https://play-lh.googleusercontent.com/T9J8e9oxxPd600j_KPM4KK2GHfNpUpGBdTy8lHPXBXpOUfGusRuZXj0UMgFNrP8we6LVt9V-AibEgcLootE6VK4",
-    "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 4.768087,
-    "reviews": 51201235,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "OpenAI",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-10"
-  },
-  {
-    "id": "com.google.android.apps.bard",
-    "name": "Google Gemini",
-    "slug": "google-gemini",
-    "icon": "https://play-lh.googleusercontent.com/C64IqPWyFoCZzXVxXVl0Y6mliiNlG_sZJsqul-SBvk9ZL0wJHlU0Eho2wvsBHhho0FT5XQtH55RVGerIwXF_MA",
-    "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 4.5838704,
-    "reviews": 39318494,
-    "installs": 1000000000,
-    "installsText": "1,000,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Google LLC",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-06"
-  },
-  {
-    "id": "ai.perplexity.app.android",
-    "name": "Perplexity - Ask Anything",
-    "slug": "perplexity-ask-anything",
-    "icon": "https://play-lh.googleusercontent.com/vg7sPhgWiPr0L2cK_NLLcCl0mrkEmNNv7C-aUkBdIUEa-9uSnCi5x4z_3Mw0vNYWKoSVWHfgri7THMOsOZKQuA",
-    "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 4.583815,
-    "reviews": 2011914,
-    "installs": 100000000,
-    "installsText": "100,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "PerplexityAI",
-    "contentRating": "Teen",
-    "lastUpdated": "2026-07-09"
-  },
-  {
-    "id": "com.microsoft.copilot",
-    "name": "​​Microsoft Copilot",
-    "slug": "microsoft-copilot",
-    "icon": "https://play-lh.googleusercontent.com/V05pNdWb783cFsD_n5YOiX54XINjjc491omkmIE4ezA5MCPRD_J7_Vt3Ejs5k1SnZn1XvCY9qS9NXQ0yfCvrDyQ",
-    "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 4.6598597,
-    "reviews": 2337173,
-    "installs": 50000000,
-    "installsText": "50,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Microsoft Corporation",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-07-01"
-  },
-  {
-    "id": "com.termux",
-    "name": "Termux",
-    "slug": "termux",
-    "icon": "https://play-lh.googleusercontent.com/3FXmU_EG8STFwy1wzCSgBh86qMv1TcFsbHmeypzpwaOOqRzs-7ondLbF5AUzk3SzlRp67ht1n7711c74Akoh",
-    "category": "Tools",
-    "genres": [
-      "TOOLS"
-    ],
-    "rating": 4.532258,
-    "reviews": 168999,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Fredrik Fornwall",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-06-21"
-  },
-  {
-    "id": "com.foxdebug.acodefree",
-    "name": "Acode — Terminal & AI Coding",
-    "slug": "acode-terminal-ai-coding",
-    "icon": "https://play-lh.googleusercontent.com/PxB4ebclmosav4yUFzvSxswqs2dM10QIhGgv7DHHoo5e6gcLOS55Q-nKOYNxQC-4mR-PHbpEW2-HXENzdMSV",
-    "category": "Productivity",
-    "genres": [
-      "PRODUCTIVITY"
-    ],
-    "rating": 3.23,
-    "reviews": 13713,
-    "installs": 1000000,
-    "installsText": "1,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Foxbiz Software Pvt. Ltd.",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-06-18"
-  },
-  {
-    "id": "ru.iiec.pydroid3",
-    "name": "Pydroid 3 - IDE for Python 3",
-    "slug": "pydroid-3-ide-for-python-3",
-    "icon": "https://play-lh.googleusercontent.com/FC9X7N7hEjg8VgF3lNj4KJm4VpGktP4Ei3F9vd2EfInnHURB8XnyLX6gBM2nc8iadPZjGNAqEjeL3eMifZQNSA",
-    "category": "Education",
-    "genres": [
-      "EDUCATION"
-    ],
-    "rating": 4.3806453,
-    "reviews": 84655,
-    "installs": 10000000,
-    "installsText": "10,000,000+",
-    "type": "Free",
-    "price": 0,
-    "developer": "Lider Soft KZ",
-    "contentRating": "Everyone",
-    "lastUpdated": "2026-05-18"
+    "lastUpdated": "2026-07-05",
+    "category": "Photography",
+    "features": {
+      "filters": true,
+      "cloudBackup": false,
+      "editingTools": true,
+      "collage": true
+    }
   }
 ]

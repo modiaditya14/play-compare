@@ -18,7 +18,7 @@ body {
 .tilted-dot-grid {
   position: relative;
   width: 100%;
-  height: max-content;
+  height: 100vh;
   /* Control your main fallback background color here */
   background-color: #0f172a; 
   overflow-x: hidden;
@@ -31,7 +31,7 @@ body {
   top: -50%;
   left: -50%;
   width: 200%;
-  height: 200vh;
+  height: 500vh;
   
   /* Create the dots pattern */
   background-image: radial-gradient(#334155 1.5px, transparent 1.5px);
