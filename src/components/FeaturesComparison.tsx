@@ -14,8 +14,20 @@ function getFeatureLabels(
 ): { label: string; value: boolean }[] {
     const features: { label: string; value: boolean }[] = [];
     if (app.features) {
-        console.log(app.features)
         if (app.category === "Productivity") {
+            if ("offlineMode" in app.features) {
+                features.push({ label: "Offline Mode", value: app.features.offlineMode == true || false });
+            }
+            if ("cloudSync" in app.features) {
+                features.push({ label: "Cloud Sync", value: app.features.cloudSync == true || false });
+            }
+            if ("collaboration" in app.features) {
+                features.push({
+                    label: "Collaboration",
+                    value: app.features.collaboration == true || false,
+                });
+            }
+        } else if (app.category === "Notes" || app.category === "Business") {
             if ("offlineMode" in app.features) {
                 features.push({ label: "Offline Mode", value: app.features.offlineMode == true || false });
             }
@@ -60,7 +72,7 @@ function getFeatureLabels(
             if ("groupChats" in app.features) {
                 features.push({ label: "Group Chats", value: app.features.groupChats == true || false });
             }
-        } else if (app.category === "Entertainment") {
+        } else if (app.category === "Entertainment" || app.category === "Music") {
             if ("offlineDownload" in app.features) {
                 features.push({
                     label: "Offline Download",
@@ -96,6 +108,94 @@ function getFeatureLabels(
                 });
             }
         }
+        // else if () {
+        //     if ("videoCall" in app.features) {
+        //         features.push({ label: "Video Conference", value: app.features.videoCall == true || false });
+        //     }
+        //     if ("readReceipts" in app.features) {
+        //         features.push({ label: "Screen Sharing", value: app.features.readReceipts == true || false });
+        //     }
+        //     if ("teamCollaboration" in app.features) {
+        //         features.push({
+        //             label: "Team Collaboration",
+        //             value: app.features.teamCollaboration == true || false,
+        //         });
+        //     }
+        //     if ("fileSharing" in app.features) {
+        //         features.push({ label: "File Sharing", value: app.features.fileSharing == true || false });
+        //     }
+        // }
+        else if (app.category === "Shopping") {
+            if ("cashOnDelivery" in app.features) {
+                features.push({ label: "Cash On Delivery", value: app.features.cashOnDelivery == true || false });
+            }
+            if ("wishlist" in app.features) {
+                features.push({ label: "Wishlist", value: app.features.wishlist == true || false });
+            }
+            if ("easyReturns" in app.features) {
+                features.push({
+                    label: "Easy Returns",
+                    value: app.features.easyReturns == true || false,
+                });
+            }
+            if ("oneDayDelivery" in app.features) {
+                features.push({ label: "one Day Delivery", value: app.features.oneDayDelivery == true || false });
+            }
+        }
+        else if (app.category === "Photography") {
+            if ("filters" in app.features) {
+                features.push({
+                    label: "Filters",
+                    value: app.features.filters == true || false,
+                });
+            }
+            if ("cloudBackup" in app.features) {
+                features.push({ label: "Cloud Backup", value: app.features.cloudBackup == true || false });
+            }
+            if ("editingTools" in app.features) {
+                features.push({ label: "Editing Tools", value: app.features.editingTools == true || false });
+            }
+            if ("collage" in app.features) {
+                features.push({
+                    label: "Collage",
+                    value: app.features.collage == true || false,
+                });
+            }
+        }
+        //  else if (app.category === "News & Magazines") {
+        //     if ("offlineReading" in app.features) {
+        //         features.push({
+        //             label: "Offline Reading",
+        //             value: app.features.offlineReading == true || false,
+        //         });
+        //     }
+        //     if ("personalization" in app.features) {
+        //         features.push({ label: "Personalization", value: app.features.personalization == true || false });
+        //     }
+        //     if ("pushNotifications" in app.features) {
+        //         features.push({
+        //             label: "Push Notifications",
+        //             value: app.features.pushNotifications == true || false,
+        //         });
+        //     }
+        //     if ("darkMode" in app.features) {
+        //         features.push({ label: "Dark Mode", value: app.features.darkMode == true || false });
+        //     }
+        // } 
+        // else if (app.category === "Lifestyle") {
+        //     if ("userProfiles" in app.features) {
+        //         features.push({ label: "User Profiles", value: app.features.userProfiles == true || false });
+        //     }
+        //     if ("socialFeatures" in app.features) {
+        //         features.push({ label: "Social Features", value: app.features.socialFeatures == true || false });
+        //     }
+        //     if ("personalization" in app.features) {
+        //         features.push({ label: "Personalization", value: app.features.personalization == true || false });
+        //     }
+        //     if ("customization" in app.features) {
+        //         features.push({ label: "Customization", value: app.features.customization == true || false });
+        //     }
+        // }
     }
 
     return features;
@@ -110,8 +210,8 @@ export function FeaturesComparison({
 }) {
     const featuresA = getFeatureLabels(appA);
     const featuresB = getFeatureLabels(appB);
-    // console.log("Features A:", featuresA);
-    // console.log("Features B:", featuresB);
+    console.log("Features A:", featuresA);
+    console.log("Features B:", featuresB);
     // Get all unique feature labels
     const allFeatures = Array.from(
         new Set([...featuresA.map((f) => f.label), ...featuresB.map((f) => f.label)])
