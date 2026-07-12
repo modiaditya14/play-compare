@@ -13,7 +13,6 @@ function getFeatureLabels(
     app: PlayApp
 ): { label: string; value: boolean }[] {
     const features: { label: string; value: boolean }[] = [];
-    const appWithFeatures = app as any;
     if (app.features) {
         console.log(app.features)
         if (app.category === "Productivity") {
@@ -74,26 +73,26 @@ function getFeatureLabels(
             if ("premiumContent" in app.features) {
                 features.push({
                     label: "Premium Content",
-                    value: appWithFeatures.premiumContent ?? false,
+                    value: app.features.premiumContent == true || false,
                 });
             }
         } else if (app.category === "Games") {
             if ("multiplayer" in app.features) {
-                features.push({ label: "Multiplayer", value: appWithFeatures.multiplayer ?? false });
+                features.push({ label: "Multiplayer", value: app.features.multiplayer == true || false });
             }
             if ("offline" in app.features) {
-                features.push({ label: "Offline Play", value: appWithFeatures.offline ?? false });
+                features.push({ label: "Offline Play", value: app.features.offline == true || false });
             }
             if ("controller" in app.features) {
                 features.push({
                     label: "Controller Support",
-                    value: appWithFeatures.controller ?? false,
+                    value: app.features.controller == true || false,
                 });
             }
             if ("inAppPurchases" in app.features) {
                 features.push({
                     label: "In-App Purchases",
-                    value: appWithFeatures.inAppPurchases ?? false,
+                    value: app.features.inAppPurchases == true || false,
                 });
             }
         }
