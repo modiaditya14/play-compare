@@ -25,6 +25,6 @@ export function getAlternatives(app: PlayApp, limit = 6): AlternativeMatch[] {
   return candidates.map(({ app: a, sharedGenres }) => ({
     app: a,
     sharedGenres,
-    reason: `Same category${sharedGenres > 0 ? ` · ${sharedGenres} shared genre${sharedGenres > 1 ? "s" : ""}` : ""} · ${a.installsText} installs`,
+    reason: `Same category${sharedGenres > 0 ? ` · ${sharedGenres} shared genre${sharedGenres > 1 ? "s" : ""}` : ""} · ${a.installs} installs`,
   }));
 }
