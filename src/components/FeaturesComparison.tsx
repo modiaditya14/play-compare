@@ -220,7 +220,7 @@ export function FeaturesComparison({
     if (allFeatures.length === 0) return null;
 
     return (
-        <div className="panel-emboss overflow-hidden rounded-3xl border border-white/5">
+        <div className="panel-emboss ancient-scroll-panel overflow-hidden rounded-3xl border border-white/5">
             <div className="border-b border-white/5 p-3 sm:p-6">
                 <h3 className="text-xs sm:text-sm font-semibold uppercase tracking-wide text-chalk/50">
                     Features
@@ -249,7 +249,7 @@ export function FeaturesComparison({
                                     {valueA ? "Yes" : "No"}
                                 </span>
                             </div>
-                            <div className="text-[0.7rem] sm:text-[0.85rem] uppercase tracking-wide text-chalk/60 text-center font-semibold">
+                            <div className="text-[0.7rem] sm:text-[0.85rem] uppercase tracking-wide text-chalk/90 text-center font-semibold">
                                 {featureLabel}
                             </div>
                             <div className="flex items-center justify-end gap-2">

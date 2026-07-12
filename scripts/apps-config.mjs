@@ -72,7 +72,7 @@ export const APPS = [
   { id: "com.pandora.android", category: "Music", features: { offlineDownload: true, ads: true, premiumContent: true } },
   { id: "deezer.android.app", category: "Music", features: { offlineDownload: true, ads: true, premiumContent: true } },
   { id: "com.bsbportal.music", category: "Music", features: { offlineDownload: true, ads: true, premiumContent: true } },
-  { id: "com.mxtech.videoplayer.ad", category: "Music", features: { offlineDownload: true, ads: true, premiumContent: false } },
+  { id: "com.mxtech.videoplayer.ad", category: "Music", features: { offlineDownload: true, ads: true, premiumContent: false } },  
 
   // Games
   { id: "com.activision.callofduty.shooter", category: "Games", features: { multiplayer: true, offline: false, controller: true, inAppPurchases: true } },

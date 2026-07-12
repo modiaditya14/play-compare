@@ -7,15 +7,16 @@ export function SearchBar({ onSelect }: { onSelect: (app: PlayApp) => void }) {
   const results = searchApps(query);
 
   return (
-    <div className="relative w-full max-w-md">
+    <div className="relative z-[120] w-full max-w-md animate-fade-up">
       <input
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search an app, e.g. Instagram"
-        className="w-full rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm text-chalk outline-none placeholder:text-chalk/40 focus:border-volt"
+        className="animate-float w-full rounded-full border border-white/10 bg-white/5 px-5 pr-12 py-3 text-sm text-chalk outline-none placeholder:text-chalk/50 transition duration-200 focus:border-volt focus:shadow-[0_0_0_8px_rgba(204,255,51,0.18)]"
       />
+      <span className="search-icon material-symbols-outlined">search</span>
       {results.length > 0 && (
-        <ul className="panel-emboss absolute z-10 mt-2 w-full overflow-hidden rounded-2xl border border-white/10">
+        <ul className="panel-emboss search-dropdown absolute z-[200] mt-2 w-full overflow-hidden rounded-2xl border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.7)]">
           {results.map((app) => (
             <li key={app.id}>
               <button

@@ -15,7 +15,7 @@ export function AlternativesChips({
   }
 
   return (
-    <div>
+    <div className="animate-fade-up">
       <p className="mb-2 text-xs uppercase tracking-wide text-chalk/40">
         Alternatives to {app.name}
       </p>
@@ -25,7 +25,7 @@ export function AlternativesChips({
             key={alt.id}
             onClick={() => onPick(alt)}
             title={reason}
-            className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-sm text-chalk/80 transition hover:border-volt hover:text-volt"
+            className="animate-float flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-sm text-chalk/80 transition hover:border-volt hover:text-volt"
           >
             <img src={alt.icon} alt="" className="h-5 w-5 rounded" />
             {alt.name}
